@@ -12,10 +12,12 @@
     parent: true
     components:
     - type: Stealth
-      minVisibility: -5
+      minVisibility: -5 #The values don't do anything past -1, but if that ever changes, I'll be ready.
       lastVisibility: -5
+      maxVisibility: 0.5 #This should never actually be reached, but if someone wants to add StealthOnMove...
+      enabledOnDeath: false #Invisibility will disable on death. It will instantly re-enable upon revival. 
   - type: PowerCellDraw
-    drawRate: 0
+    drawRate: 0 #Invisible forever.
     pauseRecharging: false
   - type: ToggleCellDraw
   - type: PowerCellSlot
