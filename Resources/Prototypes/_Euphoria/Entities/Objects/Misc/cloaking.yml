@@ -1,0 +1,32 @@
+- type: entity
+  parent: BaseItem #This is effectively a more powerful clone of the Xenoborg cloaking device, but I did not want to attach Xenoborg stuff to it, so not parenting.
+  id: SuperDuperCloakingDeviceAdmeme
+  name: super duper cloaking device #Differentiate from the super cloaking device. This is unlikely to ever be seen though.
+  description: A device that allows the user to become invisible.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Research/anomalyscanner.rsi
+    state: icon
+  - type: ItemToggle
+  - type: ComponentToggler
+    parent: true
+    components:
+    - type: Stealth
+      minVisibility: -5
+      lastVisibility: -5
+  - type: PowerCellDraw
+    drawRate: 0
+    pauseRecharging: false
+  - type: ToggleCellDraw
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellSmallNuclear
+        disableEject: true
+        swap: false
