@@ -9,14 +9,16 @@
     Water: 2
 
 - type: reaction
-  id: GravyReaction
-  minTemp: 360
+  id: BreastMilkCurdling
+  impact: Low
+  quantized: true
+  conserveEnergy: false
   reactants:
-    Fat:
-      amount: 9
-    Flour:
+    BreastMilk:
+      amount: 15
+    Enzyme:
       amount: 5
-    Water:
-      amount: 5
-  products:
-    Gravy: 15
+      catalyst: true
+  effects:
+  - !type:SpawnEntity
+    entity: FoodMothersCheese

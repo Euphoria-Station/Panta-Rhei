@@ -19,5 +19,5 @@ reagent-desc-berrynice = All the berries in one tall glass...
 reagent-name-baxshots = bax shots
 reagent-desc-baxshots = A drink named after the famed tajaran weiner master himself.
 
-reagent-name-gravy = gravy
-reagent-desc-gravy = One ticket for the Gravy Train, please.
+reagent-name-breast-milk = breast milk
+reagent-desc-breast-milk = A special, nutrient rich milk produced by the mammary glands of lactating mothers. It's nice and warm, with a thick consistency that makes it enjoyable to drink.
