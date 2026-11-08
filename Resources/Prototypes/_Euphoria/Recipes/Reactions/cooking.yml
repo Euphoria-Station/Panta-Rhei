@@ -25,13 +25,21 @@
 
 - type: reaction
   id: GravyReaction
-  minTemp: 360
+  reactants:
+    Roux:
+      amount: 10
+    Water:
+      amount: 5
+  products:
+    Gravy: 15
+
+- type: reaction
+  id: RouxReaction
+  minTemp: 365
   reactants:
     Fat:
       amount: 9
     Flour:
       amount: 5
-    Water:
-      amount: 5
   products:
-    Gravy: 15
+    Roux: 10
