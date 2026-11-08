@@ -9,11 +9,19 @@
       smokable:
         maxVol: 45
         reagents:
-        - ReagentId: Ash
-          Quantity: 45
-      cigaretteash:
+          - ReagentId: Saline
+            Quantity: 5
+          - ReagentId: Omnizine
+            Quantity: 5
+          - ReagentId: Dylovene
+            Quantity: 5
+          - ReagentId: Radium
+            Quantity: 5
+          - ReagentId: Ash
+            Quantity: 25
+      marketwideherbalcigarette:
         reagents:
         - ReagentId: Ash
           Quantity: 10
   - type: Extractable
-    grindableSolutionName: cigaretteash
+    grindableSolutionName: marketwideherbalcigarette
