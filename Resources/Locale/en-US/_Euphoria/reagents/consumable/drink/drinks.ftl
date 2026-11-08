@@ -24,3 +24,6 @@ reagent-desc-gibtonite-froth = Renowned through space and time, a tankard of Gib
 
 reagent-name-leafguard = leafguard
 reagent-desc-leafguard = The Leafguard is on this chart entirely to please CC. It'll kill your buzz faster than a pay cut, and leave you with the same empty feeling in your gut. Still, it can be handy on Inspection Day - just don't let anyone know you had one. Hated by Greybeards, loved by Greenbeards.
+
+reagent-name-breast-milk = breast milk
+reagent-desc-breast-milk = A special, nutrient rich milk produced by the mammary glands of lactating mothers. It's nice and warm, with a thick consistency that makes it enjoyable to drink.
