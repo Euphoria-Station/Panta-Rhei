@@ -44,8 +44,8 @@
         layer:
         - MobMask
   - type: Damageable
-    damageContainer: StructuralMarine
-    damageModifierSet: StructuralMarine
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds:
     - trigger:
