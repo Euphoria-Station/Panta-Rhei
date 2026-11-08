@@ -42,3 +42,17 @@
   physicalDesc: reagent-physical-desc-sticky
   flavor: sweet
   color: "#280137"
+
+- type: reagent
+  id: Gravy
+  name: reagent-name-gravy
+  parent: BaseJuice
+  desc: reagent-desc-gravy
+  physicalDesc: reagent-physical-desc-thick
+  flavor: savory
+  color: "#672108"
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateHunger
+        factor: 2

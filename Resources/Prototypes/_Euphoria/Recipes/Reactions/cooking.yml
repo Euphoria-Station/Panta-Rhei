@@ -7,3 +7,16 @@
       amount: 1
   products:
     Water: 2
+
+- type: reaction
+  id: GravyReaction
+  minTemp: 360
+  reactants:
+    Fat:
+      amount: 9
+    Flour:
+      amount: 5
+    Water:
+      amount: 5
+  products:
+    Gravy: 15
