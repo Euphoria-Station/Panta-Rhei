@@ -6,3 +6,12 @@
   components:
     - type: Flatpack
       entity: VendingMachineBarista
+
+- type: entity
+  parent: BaseFlatpack
+  id: CoffeeMachineFlatpack
+  name: coffee machine flatpack
+  description: A flatpack used for constructing a Coffee Machine.
+  components:
+  - type: Flatpack
+    entity: RMCCoffeeMachine
