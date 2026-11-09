@@ -58,7 +58,7 @@
   flavorType: Complex
   description: flavor-complex-leafguard
 
-- type: flavour
+- type: flavor
   id: breastmilk
   flavorType: Complex
   description: flavor-complex-breast-milk
