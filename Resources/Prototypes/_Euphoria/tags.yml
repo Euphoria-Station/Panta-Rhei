@@ -6,10 +6,16 @@
   id: BassGuitar # regular version
 
 - type: Tag
+  id: Lighters
+
+- type: Tag
+  id: BigAssBluntCrafter
+
+- type: Tag
   id: IPCrepairkit
 
 - type: Tag
   id: PowerCellMedium
-  
+
 - type: Tag
   id: PowerCellHigh
