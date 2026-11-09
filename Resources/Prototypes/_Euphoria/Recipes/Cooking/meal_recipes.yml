@@ -326,3 +326,15 @@
     Gravy: 5
   solids:
     FoodSausageRaw: 2
+    
+- type: microwaveMealRecipe
+  id: RecipePattyMelt
+  name: patty melt recipe
+  result: FoodPattyMelt
+  time: 10
+  group: Savory
+  solids:
+    FoodBreadPlainSlice: 2
+    FoodMeatPattyCooked: 1
+    FoodCheeseSlice: 1
+    FoodButterSlice: 1
