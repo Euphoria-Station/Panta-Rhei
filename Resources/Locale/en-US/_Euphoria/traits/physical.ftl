@@ -7,6 +7,7 @@ trait-replace-blood-slime-name = Blood: Slime
 trait-replace-blood-yellow-name = Blood: Yellow
 trait-replace-blood-black-name = Blood: Black
 trait-replace-blood-white-name = Blood: White
+trait-replace-blood-synth-name = Blood: Synthetic
 trait-blood-desc = Your blood is unusual for your species. This doesn't affect what medicines work on you.
 
 trait-healing-minus-name = Regeneration: Compromised
@@ -15,3 +16,5 @@ trait-healing-plus-name = Regeneration: Enhanced
 trait-healing-plus-desc = You heal faster than others, but have a higher metabolism
 trait-healing-plus-2-name = Regeneration: Superior
 trait-healing-plus-2-desc = Your ability to heal is even better, but you have increased thirst and hunger.
+trait-pettable-name = Pettable
+trait-pettable-desc = You are very pettable, you find that crew members have a much easier time petting you on the top of your floofy head...

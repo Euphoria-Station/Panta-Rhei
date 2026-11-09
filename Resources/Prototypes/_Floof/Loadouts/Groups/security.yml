@@ -5,6 +5,10 @@
   abstract: true
   loadouts:
   - UniformJumpsuitSecSummer
+  - SeniorSecOfficerJumpsuit
+  - SeniorSecOfficerJumpskirt
+  - SeniorSecOfficerTurtlesuit
+  - SeniorSecOfficerTurtleskirt
 
 # ======================================================== #
 # HOS additions
@@ -159,6 +163,17 @@
   loadouts:
   - ClothingUnderSocksCorpsman
 
+# ======================================================== #
+# Security Technician additions
+- type: loadoutGroup
+  id: FloofSecurityTechnicianBelts
+  name: loadout-group-security-technician-belts
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ClothingBeltCombatUtilityFilled
+  - ClothingBeltCombatUtilityAdvanced
+
 
 # ======================================================== #
 # emotional support
@@ -184,6 +199,7 @@
   maxLimit: 1
   loadouts:
   - SecurityTechnicianPDA
+  - SecuritySapperPDA
   - ClothingNeckCollarEmotionalSupportSecTech
 
 - type: loadoutGroup

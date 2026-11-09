@@ -11,7 +11,7 @@
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: true
-      onlyGroupWhitelisted: true
+      #onlyGroupWhitelisted: true #Euphoria - rodentia should be able to change tails
       default: [ RodentiaTailDefault ]
     enum.HumanoidVisualLayers.LLeg:
       limit: 6
@@ -64,7 +64,7 @@
       Ears: OrganHumanEars
       Appendix: OrganHumanAppendix
       Lungs: OrganHumanLungs
-      Heart: OrganAnimalHeart
+      Heart: OrganHumanHeart #Euphoria, our rats can eat anything. Yes, hearts determine metabolism, its dumb.
       Stomach: OrganAnimalStomach
       Liver: OrganAnimalLiver
       Kidneys: OrganHumanKidneys

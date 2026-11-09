@@ -6,4 +6,10 @@
   id: BassGuitar # regular version
 
 - type: Tag
+  id: Lighters
+
+- type: Tag
+  id: BigAssBluntCrafter
+
+- type: Tag
   id: MagazineBox #Secborgs need to pick up ammo boxes
