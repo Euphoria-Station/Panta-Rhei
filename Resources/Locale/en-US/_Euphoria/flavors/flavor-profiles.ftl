@@ -13,3 +13,4 @@ flavor-complex-breast-milk = like warm, thick milk
 
 reagent-physical-desc-impossibly-strong = impossibly strong
 reagent-physical-desc-buzzkilling = buzzkilling
+flavor-complex-gravy = like gravy

@@ -62,3 +62,8 @@
   id: breastmilk
   flavorType: Complex
   description: flavor-complex-breast-milk
+
+- type: flavor
+  id: gravy
+  flavorType: Complex
+  description: flavor-complex-gravy

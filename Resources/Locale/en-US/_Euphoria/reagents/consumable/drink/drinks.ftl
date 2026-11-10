@@ -27,3 +27,9 @@ reagent-desc-leafguard = The Leafguard is on this chart entirely to please CC. I
 
 reagent-name-breast-milk = breast milk
 reagent-desc-breast-milk = A special, nutrient rich milk produced by the mammary glands of lactating mothers. It's nice and warm, with a thick consistency that makes it enjoyable to drink.
+
+reagent-name-gravy = gravy
+reagent-desc-gravy = One ticket for the Gravy Train, please.
+
+reagent-name-roux = roux
+reagent-desc-roux = A thick mixture of fat and flour used as the base of many sauces, such as gravy.
