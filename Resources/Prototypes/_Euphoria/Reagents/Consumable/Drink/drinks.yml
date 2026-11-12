@@ -121,4 +121,8 @@
           min: 5
         reagent: Ethanol
         amount: -5
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectDrunk
+        time: 10.0
+        type: Remove
   fizziness: 0.15

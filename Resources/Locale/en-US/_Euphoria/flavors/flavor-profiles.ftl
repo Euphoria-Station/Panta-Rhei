@@ -10,7 +10,4 @@ flavor-complex-shrimp-soda = like fizzy, bubbly shrimp
 flavor-complex-gibtonite-froth = like simultaneous knockout punches to the liver and head
 flavor-complex-leafguard = like an insult to dwarfkind, and buzzkilling
 flavor-complex-breast-milk = like warm, thick milk
-
-reagent-physical-desc-impossibly-strong = impossibly strong
-reagent-physical-desc-buzzkilling = buzzkilling
 flavor-complex-gravy = like gravy
