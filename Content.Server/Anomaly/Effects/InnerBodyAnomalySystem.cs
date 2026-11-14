@@ -97,7 +97,7 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
 
         ent.Comp.Injected = true;
 
-        EntityManager.AddComponents(ent, injectedAnom.Components);
+        EntityManager.AddComponents(ent, injectedAnom.Components, false); //Euphoria | removeExisting false to make it not overwrite psionic component
 
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
         {
@@ -217,9 +217,17 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
 
         if (_proto.Resolve(ent.Comp.InjectionProto, out var injectedAnom))
         {
+            //Euphoria | Make a copy of the current psionic component on the entity
+            var psionicsaver = new PsionicComponent();
+            var curr = Comp<PsionicComponent>(ent);
+            psionicsaver.PsionicPowersActionEntities = curr.PsionicPowersActionEntities;
+            psionicsaver.StunOnRemoval = curr.StunOnRemoval;
+
             EntityManager.RemoveComponents(ent, injectedAnom.Components);
-            if (!HasComp<FamiliarComponent>(ent)) //Euphoria | Ignore anomalites
-                AddComp<PsionicComponent>(ent); //Euphoria | Psions stay psionic, non-psions remain psionic after anomaly infection
+
+            //Euphoria | Add the copy of psionic back to the entity if not an anomalite
+            if (!ent.Comp.SkipStun)
+                AddComp(ent, psionicsaver, true);
         }
 
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
