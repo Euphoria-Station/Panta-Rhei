@@ -1529,10 +1529,10 @@
   groupBy: "smokeables"
 
 - type: loadout
-  id: CigPackSyndicateFake
+  id: CigPackInterdyne
   storage:
     back:
-    - CigPackSyndicateFake
+    - CigPackInterdyne
   groupBy: "smokeables"
 
 - type: loadout

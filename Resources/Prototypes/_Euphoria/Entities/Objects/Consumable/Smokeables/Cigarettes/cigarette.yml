@@ -1,5 +1,5 @@
 ﻿- type: entity
-  id: CigaretteSyndicateFake
+  id: CigaretteInterdyne
   suffix: herbal
   parent: Cigarette
   name: cigarette
@@ -9,11 +9,17 @@
       smokable:
         maxVol: 45
         reagents:
-        - ReagentId: Ash
-          Quantity: 45
-      cigaretteash:
+          - ReagentId: Omnizine
+            Quantity: 10
+          - ReagentId: Charcoal
+            Quantity: 5
+          - ReagentId: Radium
+            Quantity: 10
+          - ReagentId: Ash
+            Quantity: 20
+      marketwideherbalcigarette:
         reagents:
         - ReagentId: Ash
           Quantity: 10
   - type: Extractable
-    grindableSolutionName: cigaretteash
+    grindableSolutionName: marketwideherbalcigarette
