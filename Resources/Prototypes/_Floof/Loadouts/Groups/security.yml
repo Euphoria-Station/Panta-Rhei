@@ -21,6 +21,7 @@
   loadouts:
   - MaskSecBreathMask
   - MaskSecGasMask
+  - MaskSecGasCombat
   - MaskSecSwat
   - MaskSecSwatOpen
 

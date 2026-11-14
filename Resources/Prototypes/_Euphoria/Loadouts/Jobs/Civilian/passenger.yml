@@ -113,6 +113,11 @@
     mask: ClothingMaskGasDrone
 
 - type: loadout
+  id: ClothingMaskGasDroneHoodless
+  equipment:
+    mask: ClothingMaskGasDroneHoodless
+
+- type: loadout
   id: ClothingMaskOniBlue
   equipment:
     mask: ClothingMaskOniBlue
