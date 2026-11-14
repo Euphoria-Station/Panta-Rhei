@@ -459,3 +459,27 @@
     count:
       min: 2
       max: 3
+
+- type: metamorphRecipe
+  id: FoodHotdogFrotdog
+  key: Hotdog
+  result: FoodHotdogFrotdog
+  rules:
+  - !type:SequenceLength
+    range:
+      min: 3
+      max: 6
+  - !type:IngredientsWithTags # 1 rod (Creator comment: I added this so attempting to make a different hotdog with two sauages doesnt force it to be a frotdog -_-)
+    tags:
+    - Rod
+    count:
+      min: 1
+      max: 2
+  - !type:IngredientsWithTags # 2 Sausages
+    tags:
+    - Meat
+    - Cooked
+    - Sausage
+    count:
+      min: 2
+      max: 4

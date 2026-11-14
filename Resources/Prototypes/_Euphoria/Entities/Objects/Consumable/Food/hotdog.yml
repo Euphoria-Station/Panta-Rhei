@@ -316,3 +316,18 @@
     - bun
     - pineapple
     - meaty
+
+- type: entity
+  parent: FoodMealHotdog
+  id: FoodHotdogFrotdog
+  name: frotdog
+  description: two sausages, one bun. We don't know where the mayo came from and we don't ask
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/frotdog.rsi
+    layers:
+    - state: frotdog
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - salty
