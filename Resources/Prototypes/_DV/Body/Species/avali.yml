@@ -285,6 +285,6 @@
       state: eyes
 
 - type: entity
-  parent: [ OrganReptilianStomach, OrganAvaliInternal ]
+  parent: [ OrganAnimalStomach, OrganAvaliInternal ] # Euphoria - Replace replace OrganReptilianStomach with Animal variant
   id: OrganAvaliStomach
   categories: [ HideSpawnMenu ]
