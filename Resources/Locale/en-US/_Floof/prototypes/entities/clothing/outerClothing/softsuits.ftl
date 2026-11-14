@@ -10,7 +10,7 @@ ent-ClothingOuterHardsuitEVA = IP-37 - "Huginn" EVA Suit
 ent-ClothingOuterEVASuitSyndicate = IP-57 - "Muninn" EVA Suit
     .desc = A red EVA suit produced by Interdyne Pharmaceuticals for maximum style and minimal protection in space. It feels somewhat light.
 
-ent-ClothingOuterSuitEVAEmergency = IP-87 - "Salvator" Emergency EVA Suit
+ent-ClothingOuterSuitEmergency = IP-87 - "Salvator" Emergency EVA Suit
     .desc = An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space. It feels heavy.
 
 ent-ClothingOuterHardsuitEVAPrisoner = IP-87P - "Jailbird" Prisoner EVA Suit
