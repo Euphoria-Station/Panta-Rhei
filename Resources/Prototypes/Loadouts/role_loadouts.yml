@@ -567,6 +567,7 @@
   - SecurityEyewear # DeltaV - Security eyewear with prescription options
   - HeadofSecurityNeck
   - PassengerFace # Euphoria - give mask options
+  - FloofSecurityMasks # Euphoria - choose sec masks
   - HeadofSecurityJumpsuit
   - SecurityBackpack
   - SecurityBelt
@@ -591,6 +592,7 @@
   - SecurityEyewear # DeltaV - Security eyewear with prescription options
   - SecurityNeck # DeltaV
   - PassengerFace # Euphoria - give mask options
+  - FloofSecurityMasks # Euphoria - choose sec masks
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityBelt
@@ -616,6 +618,7 @@
   - SecurityEyewear # DeltaV - Security eyewear with prescription options
   - SecurityNeck # DeltaV
   - PassengerFace # Euphoria - give mask options
+  - FloofSecurityMasks # Euphoria - choose sec masks
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityOuterClothingDeltaV # DeltaV - Switched to DeltaV version, was SecurityOuterClothing
@@ -626,8 +629,8 @@
   - SurvivalSecurity
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
-  - SecurityFirearm # DeltaV - loadouts
-  - SecurityFirearmAmmo # DeltaV - loadouts
+  - SecurityAllFirearm # Euphoria - Was SecurityFirearm
+  - SecurityAllAmmo # Euphoria - Was SecurityFirearmAmmo
   - FloofUndergarmentTopSecurityOfficer # Floof
   - FloofUndergarmentBottomSecurityOfficer # Floof
   - FloofSocksSecurityOfficer # Floof
@@ -641,6 +644,7 @@
   - SecurityEyewear # DeltaV - Security eyewear with prescription options
   - SecurityNeck # DeltaV - replace DetectiveNeck for incongruence
   - PassengerFace # Euphoria - give mask options
+  - FloofSecurityMasks # Euphoria - choose sec masks
   - DetectiveJumpsuitDeltaV # DeltaV - Replaced with DeltaV version, was DetectiveJumpsuit
   - SecurityBackpack
   - DetectiveOuterClothingDeltaV # DeltaV - Replaced with DeltaV version, was DetectiveOuterClothing
@@ -650,8 +654,8 @@
   - SurvivalSecurity
   - DetectiveJobTrinkets
   - GroupSpeciesBreathToolSecurity
-  - SecurityRevolverFirearm # DeltaV - loadouts
-  - SecurityRevolverAmmo # DeltaV - loadouts
+  - SecurityAllFirearm # Euphoria - Was SecurityRevolverFirearm
+  - SecurityAllAmmo # Euphoria - Was SecurityRevolverAmmo
   - FloofUndergarmentTopDetective # Floof
   - FloofUndergarmentBottomDetective # Floof
   - FloofSocksDetective # Floof
@@ -664,6 +668,7 @@
   - SecurityEyewear # Floofstation - let cadets customize their eye wear
   - SecurityNeck # DeltaV
   - PassengerFace # Euphoria - give mask options
+  - FloofSecurityMasks # Euphoria - choose sec masks
   - SecurityGloves # DeltaV - Security can start with gloves
   - SecurityCadetJumpsuit
   - SecurityOuterClothingDeltaV # Floofstation - Let cadets customize their outer clothing
@@ -674,8 +679,8 @@
   - Glasses # DeltaV
   - SecurityCadetJobTrinkets
   - GroupSpeciesBreathToolSecurity
-  - SecurityFirearm # Floofstation - let cadets choose their fire arm
-  - SecurityFirearmAmmo # Floofstation - let cadets choose their ammo
+  - SecurityAllFirearm # Floofstation - let cadets choose their fire arm
+  - SecurityAllAmmo # Floofstation - let cadets choose their ammo
   - FloofUndergarmentTopSecurityOfficer # Floof
   - FloofUndergarmentBottomSecurityOfficer # Floof
   - FloofSocksSecurityOfficer # Floof

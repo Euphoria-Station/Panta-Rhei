@@ -20,6 +20,23 @@
     - Snout
     hideOnToggle: true
 
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskGasDroneHoodless
+  name: rubber gas mask
+  description: A gas mask made of dark rubber with a tinted visor.
+  suffix: Hoodless # TheDen
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/dronegasmask.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/dronegasmask.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+
 # Mantis Mask Start
 
 - type: entity
@@ -84,3 +101,15 @@
     - MantisBeltStorable
 
 #Mantis Mask End
+
+- type: entity
+  parent: ClothingMaskGasSecurityDV #Euphoria Change
+  id: ClothingMaskGasSecCombat #Euphoria Change
+  name: security combat gas mask #Euphoria Change
+  description: A slightly outdated, but reliable military-style gas mask, painted in security colors. #Euphoria Change
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/bsocombatgasmask.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/bsocombatgasmask.rsi
+

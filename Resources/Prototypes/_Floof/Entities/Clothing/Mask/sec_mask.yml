@@ -1,0 +1,75 @@
+- type: entity
+  parent: [ ClothingMaskGas, BaseSecurityContraband ]
+  id: ClothingMaskGasSwatOpen # Same as the regular SWAT mask, just doesn't hide your ears. Not parented off the default because it's really hard to unhide layers.
+  name: swat gas mask
+  suffix: Open
+  description: A elite issue Security gas mask.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Mask/swat.rsi # DeltaV - Blue Security Resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Mask/swat.rsi # DeltaV - Blue Security Resprite
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskGasDroneSecurity
+  name: security rubber gas mask
+  description: A gas mask made of dark rubber with a tinted visor, comes with a hood to hide other features. This one is made out of more durable materials and painted in security colors.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Clothing/Mask/secdronegasmask.rsi
+  - type: Clothing
+    sprite: _Euphoria/Clothing/Mask/secdronegasmask.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - HeadTop
+    - HeadSide
+    - Snout
+    hideOnToggle: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskGasDroneSecurityHoodless
+  name: security rubber gas mask
+  description: A gas mask made of dark rubber with a tinted visor. This one is made out of more durable materials and painted in security colors.
+  suffix: Hoodless # TheDen
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Clothing/Mask/secdronegasmask.rsi
+  - type: Clothing
+    sprite: _Euphoria/Clothing/Mask/secdronegasmask.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
