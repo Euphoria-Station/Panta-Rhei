@@ -4,7 +4,7 @@ meta:
   engineVersion: 275.2.7
   forkId: ""
   forkVersion: ""
-  time: 11/14/2026 11:53:34
+  time: 11/14/2026 13:06:55
   entityCount: 19016
 maps:
 - 1
@@ -7668,44 +7668,51 @@ entities:
     - type: Transform
       pos: -11.5,-53.5
       parent: 2
-- proto: AirlockAtmospherics
-  entities:
-  - uid: 8895
-    components:
-    - type: Transform
-      pos: 29.5,-35.5
-      parent: 2
-  - uid: 8896
-    components:
-    - type: Transform
-      pos: 30.5,-35.5
-      parent: 2
-  - uid: 8897
-    components:
-    - type: Transform
-      pos: 29.5,-38.5
-      parent: 2
-  - uid: 8898
-    components:
-    - type: Transform
-      pos: 30.5,-38.5
-      parent: 2
-- proto: AirlockAtmosphericsGlass
+- proto: AirlockAtmosphericsGlassLocked
   entities:
   - uid: 8901
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 13.5,-46.5
       parent: 2
   - uid: 15181
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 10.5,-43.5
       parent: 2
   - uid: 15182
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 10.5,-42.5
+      parent: 2
+- proto: AirlockAtmosphericsLocked
+  entities:
+  - uid: 8895
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 29.5,-35.5
+      parent: 2
+  - uid: 8896
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 30.5,-35.5
+      parent: 2
+  - uid: 8897
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 29.5,-38.5
+      parent: 2
+  - uid: 8898
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 30.5,-38.5
       parent: 2
 - proto: AirlockAttorneyGlassLocked
   entities:
@@ -8214,7 +8221,7 @@ entities:
       pos: 27.5,-47.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -321282.5
+      secondsUntilStateChange: -321369.7
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -9736,7 +9743,7 @@ entities:
       pos: -30.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -29304.047
+      secondsUntilStateChange: -29391.244
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9763,7 +9770,7 @@ entities:
       pos: -46.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -321899.6
+      secondsUntilStateChange: -321986.78
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9806,7 +9813,7 @@ entities:
       pos: -22.5,-18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -236662.73
+      secondsUntilStateChange: -236749.94
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9928,7 +9935,7 @@ entities:
       pos: -15.5,-42.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -273510.1
+      secondsUntilStateChange: -273597.28
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
