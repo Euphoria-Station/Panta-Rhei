@@ -11,7 +11,7 @@
 #      required: false
     enum.HumanoidVisualLayers.Tail:
       limit: 2
-      required: false
+      required: true # Euphoria - Should correct moths not having wings in the guidebook and as rolespawns
       default: [ MothWingsDefault ]
 #    enum.HumanoidVisualLayers.Chest:
 #      limit: 2
