@@ -321,7 +321,7 @@
   parent: FoodMealHotdog
   id: FoodHotdogFrotdog
   name: frotdog
-  description: two sausages, one bun. We don't know where the mayo came from and we don't ask
+  description: A hotdog with one sausage is good however what if we added another?
   components:
   - type: Sprite
     sprite: _Euphoria/Objects/Consumable/Food/hotdog.rsi
