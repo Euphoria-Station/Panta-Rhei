@@ -324,7 +324,7 @@
   description: two sausages, one bun. We don't know where the mayo came from and we don't ask
   components:
   - type: Sprite
-    sprite: _Euphoria/Objects/Consumable/Food/frotdog.rsi
+    sprite: _Euphoria/Objects/Consumable/Food/hotdog.rsi
     layers:
     - state: frotdog
   - type: FlavorProfile
