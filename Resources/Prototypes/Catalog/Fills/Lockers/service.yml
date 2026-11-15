@@ -56,6 +56,10 @@
     - id: ReagentContainerSugar
     - id: FoodCondimentBottleEnzyme
     - id: DrinkSoyMilkCarton
+    # Euphoria - additions start
+    - id: KitchenElectricRangeFlatPack
+    - id: KitchenAssemblerFlatPack
+    # Euphoria - additions end
     - !type:AllSelector
       rolls: 3
       children:
