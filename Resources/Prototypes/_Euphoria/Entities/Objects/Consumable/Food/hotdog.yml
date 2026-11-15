@@ -330,4 +330,5 @@
   - type: FlavorProfile
     flavors:
     - meaty
-    - salty
+    - bun
+    - even more meat
