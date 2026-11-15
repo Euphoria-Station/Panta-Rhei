@@ -7192,3 +7192,29 @@ Entries:
       message: made the new shadekin emotes into an alternate emote trait
   id: 890
   time: '2026-11-14T03:08:29.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        The chef locker will now come with a Electric Range and Kitchen
+        Assembler Flatpack.
+  id: 891
+  time: '2026-11-14T22:53:30.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Tweak
+      message: >-
+        patch for voyager adressing missing gear for jobs and wrong airlock
+        access
+  id: 892
+  time: '2026-11-15T07:15:51.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Add
+      message: AddTagSpecial to add tags to an entity when a job is taken
+    - type: Fix
+      message: >-
+        Lower the affects of weed on botanists so they now remember how to drive
+        and open doors.
+  id: 893
+  time: '2026-11-15T07:31:59.0000000+00:00'
