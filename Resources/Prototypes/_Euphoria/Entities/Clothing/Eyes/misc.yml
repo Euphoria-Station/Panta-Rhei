@@ -1,0 +1,15 @@
+﻿- type: entity
+  parent: ClothingEyesEyepatch
+  id: ClothingEyesEyepatchWhite
+  name: white eyepatch
+  description: For pirate fashionistas.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Clothing/Eyes/Misc/eyepatchwhite.rsi
+  - type: Clothing
+    sprite: _Euphoria/Clothing/Eyes/Misc/eyepatchwhite.rsi
+
+- type: entity
+  parent: [ClothingEyesEyepatchWhite, ClothingHeadEyeBaseFlipped]
+  id: ClothingEyesEyepatchWhiteFlipped
+  suffix: flipped
