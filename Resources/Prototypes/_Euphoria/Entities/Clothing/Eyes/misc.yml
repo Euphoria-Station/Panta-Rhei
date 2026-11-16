@@ -2,7 +2,7 @@
   parent: ClothingEyesEyepatch
   id: ClothingEyesEyepatchWhite
   name: white eyepatch
-  description: For pirate fashionistas.
+  description: For pirate fashionistas. Yarr.
   components:
   - type: Sprite
     sprite: _Euphoria/Clothing/Eyes/Misc/eyepatchwhite.rsi
