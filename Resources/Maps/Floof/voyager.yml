@@ -7711,16 +7711,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 30.5,-38.5
       parent: 2
-<<<<<<< HEAD
-=======
-- proto: AirlockAttorneyGlassLocked
-  entities:
-  - uid: 401
-    components:
-    - type: Transform
-      pos: -39.5,-43.5
-      parent: 2
->>>>>>> master
 - proto: AirlockBarLocked
   entities:
   - uid: 9528
@@ -8215,11 +8205,7 @@ entities:
       pos: 27.5,-47.5
       parent: 2
     - type: Door
-<<<<<<< HEAD
       secondsUntilStateChange: -325145.8
-=======
-      secondsUntilStateChange: -321369.7
->>>>>>> master
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -9744,11 +9730,7 @@ entities:
       pos: -30.5,-22.5
       parent: 2
     - type: Door
-<<<<<<< HEAD
       secondsUntilStateChange: -33167.41
-=======
-      secondsUntilStateChange: -29391.244
->>>>>>> master
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9775,11 +9757,7 @@ entities:
       pos: -46.5,-21.5
       parent: 2
     - type: Door
-<<<<<<< HEAD
       secondsUntilStateChange: -325762.9
-=======
-      secondsUntilStateChange: -321986.78
->>>>>>> master
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9822,11 +9800,7 @@ entities:
       pos: -22.5,-18.5
       parent: 2
     - type: Door
-<<<<<<< HEAD
       secondsUntilStateChange: -240526.11
-=======
-      secondsUntilStateChange: -236749.94
->>>>>>> master
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9948,11 +9922,7 @@ entities:
       pos: -15.5,-42.5
       parent: 2
     - type: Door
-<<<<<<< HEAD
       secondsUntilStateChange: -277373.4
-=======
-      secondsUntilStateChange: -273597.28
->>>>>>> master
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -40619,7 +40589,6 @@ entities:
     - type: Transform
       pos: -32.5,-30.5
       parent: 2
-<<<<<<< HEAD
   - uid: 19034
     components:
     - type: Transform
@@ -40662,8 +40631,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -5.5,-24.5
       parent: 2
-=======
->>>>>>> master
 - proto: Chair
   entities:
   - uid: 390
