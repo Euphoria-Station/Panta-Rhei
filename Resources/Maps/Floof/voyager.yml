@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.2.7
   forkId: ""
   forkVersion: ""
-  time: 11/15/2026 20:54:00
-  entityCount: 19059
+  time: 11/16/2026 16:36:48
+  entityCount: 19062
 maps:
 - 1
 grids:
@@ -7711,13 +7711,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 30.5,-38.5
       parent: 2
-- proto: AirlockAttorneyGlassLocked
-  entities:
-  - uid: 401
-    components:
-    - type: Transform
-      pos: -39.5,-43.5
-      parent: 2
 - proto: AirlockBarLocked
   entities:
   - uid: 9528
@@ -8212,7 +8205,7 @@ entities:
       pos: 27.5,-47.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -324773.16
+      secondsUntilStateChange: -325145.8
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -9163,6 +9156,11 @@ entities:
       parent: 2
 - proto: AirlockLawyerGlassLocked
   entities:
+  - uid: 401
+    components:
+    - type: Transform
+      pos: -39.5,-43.5
+      parent: 2
   - uid: 4498
     components:
     - type: Transform
@@ -9732,7 +9730,7 @@ entities:
       pos: -30.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -32794.75
+      secondsUntilStateChange: -33167.41
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9759,7 +9757,7 @@ entities:
       pos: -46.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -325390.25
+      secondsUntilStateChange: -325762.9
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9802,7 +9800,7 @@ entities:
       pos: -22.5,-18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -240153.44
+      secondsUntilStateChange: -240526.11
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9924,7 +9922,7 @@ entities:
       pos: -15.5,-42.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -277000.75
+      secondsUntilStateChange: -277373.4
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11329,6 +11327,16 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 16.5,-17.5
+      parent: 2
+  - uid: 19060
+    components:
+    - type: Transform
+      pos: -40.5,-18.5
+      parent: 2
+  - uid: 19062
+    components:
+    - type: Transform
+      pos: -44.5,-18.5
       parent: 2
 - proto: AtmosFixBlockerMarker
   entities:
@@ -34656,7 +34664,7 @@ entities:
   - uid: 12904
     components:
     - type: Transform
-      pos: -9.5,-23.5
+      pos: -8.5,-24.5
       parent: 2
   - uid: 12915
     components:
@@ -35767,6 +35775,11 @@ entities:
     components:
     - type: Transform
       pos: -20.5,17.5
+      parent: 2
+  - uid: 19061
+    components:
+    - type: Transform
+      pos: -9.5,-24.5
       parent: 2
 - proto: CableMVStack1
   entities:
@@ -82708,6 +82721,8 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 30.5,-43.5
       parent: 2
+    - type: GasVolumePump
+      transferRate: 5
     - type: AtmosPipeColor
       color: '#FF1212FF'
   - uid: 8072
@@ -102001,6 +102016,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 44.5,6.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        8287:
+        - - Pressed
+          - DoorBolt
     - type: Fixtures
       fixtures: {}
   - uid: 18483
@@ -102134,6 +102154,13 @@ entities:
           - Forward
         - - Off
           - Off
+        1704:
+        - - On
+          - Open
+        - - Off
+          - Close
+        - - On
+          - AutoClose
     - type: Fixtures
       fixtures: {}
   - uid: 19046
@@ -102151,7 +102178,7 @@ entities:
           - Off
         3297:
         - - On
-          - Forward
+          - Reverse
         - - Off
           - Off
         1657:
@@ -108455,6 +108482,13 @@ entities:
     - type: Transform
       pos: -26.5,-7.5
       parent: 2
+- proto: VendingMachineCrescentMoon
+  entities:
+  - uid: 18225
+    components:
+    - type: Transform
+      pos: -2.5,-31.5
+      parent: 2
 - proto: VendingMachineCuraDrobe
   entities:
   - uid: 10799
@@ -108553,13 +108587,6 @@ entities:
     components:
     - type: Transform
       pos: -53.5,-41.5
-      parent: 2
-- proto: VendingMachineMagivend
-  entities:
-  - uid: 18225
-    components:
-    - type: Transform
-      pos: -2.5,-31.5
       parent: 2
 - proto: VendingMachineMedical
   entities:
