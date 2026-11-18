@@ -18,6 +18,18 @@
         {
             "name": "shadowkin_big_fluff",
             "directions": 4
-        }
+        },
+      {
+        "name": "shadowkin-BACK",
+        "directions": 4
+      },
+      {
+        "name": "shadowkin_big-BACK",
+        "directions": 4
+      },
+      {
+        "name": "shadowkin_big_fluff-BACK",
+        "directions": 4
+      }
     ]
 }
