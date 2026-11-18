@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "modified from Textures/Objects/Specific/Hydroponics/banana.rsi and Textures/Objects/Specific/Hydroponics/mimana.rsi by themageofmicrosoftpaints",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "banana-peeled"
+    },
+    {
+      "name": "mimana-peeled"
+    }
+  ]
+}

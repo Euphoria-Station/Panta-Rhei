@@ -341,6 +341,7 @@
     butcheringType: Knife
     spawned:
     - id: TrashBananaPeel
+    - id: FoodBananaPeeled
   - type: SolutionContainerManager
     solutions:
       food:
@@ -388,6 +389,7 @@
     butcheringType: Knife
     spawned:
     - id: TrashMimanaPeel
+    - id: FoodMimanaPeeled
   - type: SolutionContainerManager
     solutions:
       food:
