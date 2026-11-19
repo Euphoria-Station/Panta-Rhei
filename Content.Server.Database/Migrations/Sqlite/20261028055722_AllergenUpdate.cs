@@ -14,7 +14,7 @@ namespace Content.Server.Database.Migrations.Sqlite
                 name: "reaction_reagent",
                 table: "cd_character_allergies",
                 type: "TEXT",
-                nullable: false,
+                nullable: true,
                 defaultValue: "");
         }
 

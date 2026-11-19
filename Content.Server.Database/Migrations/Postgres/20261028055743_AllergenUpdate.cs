@@ -14,7 +14,7 @@ namespace Content.Server.Database.Migrations.Postgres
                 name: "reaction_reagent",
                 table: "cd_character_allergies",
                 type: "text",
-                nullable: false,
+                nullable: true,
                 defaultValue: "");
         }
 
