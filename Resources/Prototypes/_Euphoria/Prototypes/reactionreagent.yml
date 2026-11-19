@@ -1,4 +1,4 @@
-- type: reactionReagentProto
+﻿- type: reactionReagentProto
   id: UniversalReactionReagents
   reagents:
   - Histamine
@@ -20,8 +20,7 @@
   - Ethanol
   - Felinase
   - Caninase
-  - JuiceThatMakesYouWeh
-  - JuiceThatMakesYouHew
-  - Ephedrine
   - Pestiline
   - Screamazine
+  - Hemorrhinol
+  - Lernaea
