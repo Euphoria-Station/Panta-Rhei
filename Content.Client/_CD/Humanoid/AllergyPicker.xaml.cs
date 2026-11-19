@@ -80,7 +80,9 @@ public sealed partial class AllergyPicker : BoxContainer
             .Where(tuple => !tuple.reagents.IsEmpty)
             .ToImmutableList();
 
-        _reactionProto = _prototypeManager.Index<ReactionReagentPrototype>("UniversalReactionReagents");
+
+        var univReactReag = "UniversalReactionReagents";
+        _reactionProto = _prototypeManager.Index<ReactionReagentPrototype>(univReactReag);
 
         foreach (var reagentId in _reactionProto.Reagents)
         {
