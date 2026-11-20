@@ -527,7 +527,9 @@
       types:
         Blunt: 12 #Damaged focus unlike Rigged or Northstars which are stun and speed focus
     soundHit:
-      collection: Punch
+      collection: Knuckles #Starlight
+      params:
+        variation: 0.125
     animation: WeaponArcFist
     mustBeEquippedToUse: true
   - type: Tag
@@ -557,8 +559,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseGrandTheftContraband]
   id: ClothingHandsKnuckleDustersQM
-  name: QM's golden knuckle dusters
-  description: "24karat gold infused with plasteel and branded with the Nanotrasen logo. A true symbol of the Quartermaster's might."
+  name: LO's golden knuckle dusters # Euphoria
+  description: 24 karat gold infused with plasteel and branded with the Nanotrasen logo. A true symbol of the Logistics Officer's might. The knuckles are embossed with the words "Castle" and "Doctrine". # Euphoria
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
@@ -573,7 +575,9 @@
       types:
         Blunt: 14
     soundHit:
-      collection: Punch
+      collection: Knuckles #Starlight
+      params:
+        variation: 0.125
     animation: WeaponArcFist
     mustBeEquippedToUse: true
   - type: Tag
@@ -602,7 +606,9 @@
         Piercing: 1 # DeltaV - changed from 8 to 1
     bluntStaminaDamageFactor: 2.0 # DeltaV - added stamina damage
     soundHit:
-      collection: Punch
+      collection: Knuckles #Starlight
+      params:
+        variation: 0.125
     animation: WeaponArcFist
     mustBeEquippedToUse: true
   - type: Tag
@@ -699,7 +705,9 @@
       types:
         Blunt: 35
     soundHit:
-      collection: Punch
+      collection: Knuckles #Starlight
+      params:
+        variation: 0.125
     animation: WeaponArcFist
   - type: Tag
     tags:

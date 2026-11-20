@@ -1,0 +1,10 @@
+﻿- type: loadout
+  id: ClothingEyesGlassesLOsShades
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobQuartermaster
+      time: 72000 # 20hr
+  equipment:
+    eyes: ClothingEyesGlassesLOsShades

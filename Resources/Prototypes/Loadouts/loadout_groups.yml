@@ -1078,6 +1078,7 @@
   minLimit: 0
   loadouts:
   - LizardPlushieQuartermaster
+  - ClothingEyesGlassesLOsShades # Euphoria
 
 - type: loadoutGroup
   id: CargoTechnicianHead
@@ -1700,7 +1701,7 @@
   - SecurityJumpskirt
   - SecurityJumpsuitGrey
   - SecurityJumpskirtGrey
-  - SecurityLongJumpskirt # Euph 
+  - SecurityLongJumpskirt # Euph
   # Begin DeltaV changes
   - SecurityJumpsuitWhite
   - SecurityJumpskirtWhite

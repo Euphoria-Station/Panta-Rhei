@@ -1,0 +1,17 @@
+﻿- type: entity
+  parent: ClothingEyesGlassesSunglasses
+  id: ClothingEyesGlassesLOsShades
+  name: LO's solid gold shades
+  description: A pair of solid gold sunglasses. A true symbol of the Logistics Officer's wealth. Somehow still see through, despite the solid 24 karat gold lenses.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Clothing/Eyes/Glasses/lo-shades.rsi
+  - type: Clothing
+    sprite: _Euphoria/Clothing/Eyes/Glasses/lo-shades.rsi
+  - type: Tag
+    tags:
+    - Sunglasses
+    - PetWearable
+    - HamsterWearable
+    - WhitelistChameleon
+    - SecDogWearable # Euphoria
