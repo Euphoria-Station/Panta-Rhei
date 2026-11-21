@@ -30,6 +30,9 @@
       path: /Audio/_EE/Items/Handling/drinkglass_drop.ogg
       params:
         volume: -4
+  - type: Tag # Euphoria - added this tag so it can be slotted into coffee machines
+    tags:
+    - DrinkGlass
 
 # A mug is a type of cup.[2]
 - type: entity

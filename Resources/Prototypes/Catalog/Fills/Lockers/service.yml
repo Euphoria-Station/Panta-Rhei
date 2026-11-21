@@ -28,6 +28,7 @@
     - id: LunchboxServiceFilledRandom # DeltaV Lunchboxes!
       prob: 0.3
     - id: BaristaVendFlatpack # Euphoria - M3739 - #485 - Temporary way to acquire in-game until it is mapped.
+    - id: CoffeeMachineFlatpack
 
 #- type: entity
 #  id: LockerFormalFilled
