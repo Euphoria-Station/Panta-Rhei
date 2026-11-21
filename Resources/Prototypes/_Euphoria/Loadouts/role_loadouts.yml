@@ -1,0 +1,8 @@
+﻿- type: roleLoadout
+  id: JobAnomaly
+  parent: JobBaseLoadout
+  groups:
+  - FloofUndergarmentTopPassenger
+  - FloofUndergarmentBottomPassenger
+  - FloofSocksPassenger
+  - ChaplainJumpsuit

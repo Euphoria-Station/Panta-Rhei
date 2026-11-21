@@ -1,0 +1,7 @@
+﻿- type: traitCategory
+  id: Anomaly
+  name: trait-category-anomaly
+  priority: 80
+  defaultExpanded: false
+  maxTraits: 3
+  accentColor: "#9f27f5"  # weird purple
