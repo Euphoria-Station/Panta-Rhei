@@ -1,9 +1,11 @@
 using Content.Server.Administration.Logs;
+using Content.Server.Bible.Components;
 using Content.Server.Body.Systems;
 using Content.Server.Chat.Managers;
 using Content.Server.Jittering;
 using Content.Server.Mind;
 using Content.Server.Stunnable;
+using Content.Shared._DV.Psionics.Components;
 using Content.Shared.Anomaly;
 using Content.Shared.Anomaly.Components;
 using Content.Shared.Anomaly.Effects;
@@ -95,7 +97,7 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
 
         ent.Comp.Injected = true;
 
-        EntityManager.AddComponents(ent, injectedAnom.Components);
+        EntityManager.AddComponents(ent, injectedAnom.Components, false); //Euphoria | removeExisting false to make it not overwrite psionic component
 
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
         {
@@ -214,7 +216,19 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
             return;
 
         if (_proto.Resolve(ent.Comp.InjectionProto, out var injectedAnom))
+        {
+            //Euphoria | Make a copy of the current psionic component on the entity
+            var psionicsaver = new PsionicComponent();
+            var curr = Comp<PsionicComponent>(ent);
+            psionicsaver.PsionicPowersActionEntities = curr.PsionicPowersActionEntities;
+            psionicsaver.StunOnRemoval = curr.StunOnRemoval;
+
             EntityManager.RemoveComponents(ent, injectedAnom.Components);
+
+            //Euphoria | Add the copy of psionic back to the entity if not an anomalite
+            if (!ent.Comp.SkipStun)
+                AddComp(ent, psionicsaver, true);
+        }
 
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
             _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration));
