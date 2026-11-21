@@ -29,7 +29,7 @@
     #id: DetectivePDA # Floofstation - let loadouts handle this
     #gloves: ClothingHandsGlovesForensic # Floofstation - we will put the gloves in their bag for character customization
     ears: ClothingHeadsetSecurity
-    belt: ClothingBeltHolster # DeltaV - loadouts
+    #belt: ClothingBeltHolster # Euphoria - Moved to loadout
   storage:
     back:
     - Flash

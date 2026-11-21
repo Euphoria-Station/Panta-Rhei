@@ -511,7 +511,7 @@
   maxLimit: 1
   loadouts:
   - SecurityGlasses
-  - PrescriptionSecurityGlasses
+#  - PrescriptionSecurityGlasses # Euphoria Change - Removed from loadout
   - SecurityHud
   - SecurityEyePatchHud
   - PrescriptionSecurityHud
