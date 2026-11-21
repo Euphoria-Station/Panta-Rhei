@@ -7,7 +7,7 @@
   conditions:
   - !type:HasJobCondition
     job: Anomaly
-  special:
+  effects:
   - !type:AddCompsEffect
     components:
     - type: jaunt
