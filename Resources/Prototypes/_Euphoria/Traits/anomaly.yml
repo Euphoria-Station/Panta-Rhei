@@ -2,7 +2,7 @@
   id: TraitAnomalyJaunt
   name: trait-anomalyJaunt-name
   description: trait-anomalyJaunt-desc
-  category: Psionics
+  category: Anomaly
   cost: 5
   conditions:
   - !type:HasJobCondition
@@ -17,7 +17,7 @@
   id: TraitAnomalySmoke
   name: trait-anomalySmoke-name
   description: trait-anomalySmoke-desc
-  category: Psionics
+  category: Anomaly
   cost: 5
   conditions:
   - !type:HasJobCondition
@@ -25,3 +25,16 @@
   effects:
   - !type:AddActionTraitEffect
     action: ActionSmoke
+
+- type: trait
+  id: TraitAnomalyInvisible
+  name: trait-anomalyInvisible-name
+  description: trait-anomalyInvisible-desc
+  category: Anomaly
+  cost: 5
+  conditions:
+  - !type:HasJobCondition
+    job: anomaly
+  effects:
+  - !type:AddActionTraitEffect
+    action: ActionPsionicInvisibility
