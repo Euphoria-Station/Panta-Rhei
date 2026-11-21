@@ -102,3 +102,41 @@
       - state: inhand-left
       right:
       - state: inhand-right
+
+- type: entity
+  parent: [BaseBrandedLighter]
+  id: CentCommFlippoCaptain
+  name: Gilded CentComm Flippo
+  description: "A gaudy jade-colored flippo frame with worn gilding, containing a colored flame. The latch is secured by a miniature access reader that only responds to Captain Credentials."
+  suffix: Captain Issue
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Lighters/centcomm.rsi
+  - type: Item
+    sprite: Objects/Tools/Lighters/centcomm.rsi
+  - type: ItemToggleRequiresLock
+    requireLocked: false
+  - type: Welder #
+    fuelConsumption: 0.005
+    fuelLitCost: 0.01
+    fuelReagent: WeldingFuel
+    tankSafe: true
+  - type: PointLight
+    enabled: false
+    netsync: false
+    radius: 2 #Worn down
+    color: Gold
+  - type: SolutionContainerManager
+    solutions:
+      Welder:
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 12
+        maxVol: 12
+  - type: Tool
+    useSound:
+      collection: Welder
+    qualities: Welding
+  - type: Lock
+  - type: AccessReader
+    access: [["Captain"]]
