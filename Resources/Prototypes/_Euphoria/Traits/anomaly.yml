@@ -1,0 +1,27 @@
+﻿- type: trait
+  id: TraitAnomalyJaunt
+  name: trait-anomalyJaunt-name
+  description: trait-anomalyJaunt-desc
+  category: Psionics
+  cost: 5
+  conditions:
+  - !type:HasJobCondition
+    job: anomaly
+  special:
+  - !type:AddCompsEffect
+    components:
+    - type: jaunt
+      jauntAction: ActionPolymorphJaunt
+
+- type: trait
+  id: TraitAnomalySmoke
+  name: trait-anomalySmoke-name
+  description: trait-anomalySmoke-desc
+  category: Psionics
+  cost: 5
+  conditions:
+  - !type:HasJobCondition
+    job: anomaly
+  effects:
+  - !type:AddActionTraitEffect
+    action: ActionSmoke
