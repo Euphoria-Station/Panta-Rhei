@@ -119,20 +119,12 @@
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.01
-    fuelReagent: WeldingFuel
     tankSafe: true
   - type: PointLight
     enabled: false
     netsync: false
     radius: 2 #Worn down
     color: Gold
-  - type: SolutionContainerManager
-    solutions:
-      Welder:
-        reagents:
-        - ReagentId: WeldingFuel
-          Quantity: 12
-        maxVol: 12
   - type: Tool
     useSound:
       collection: Welder
