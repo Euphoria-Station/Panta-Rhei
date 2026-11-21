@@ -44,6 +44,7 @@
   id: Eyepatch
   equipment:
     eyes: ClothingEyesEyepatch
+  groupBy: "eyepatches" # Euphoria
 
 - type: loadout
   id: PlushieExperiment

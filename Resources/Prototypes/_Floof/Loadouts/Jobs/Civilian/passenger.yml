@@ -1854,6 +1854,13 @@
   id: ClothingEyesEyepatch
   equipment:
     eyes: ClothingEyesEyepatch
+  groupBy: "eyepatches" # Euphoria
+
+- type: loadout # Euphoria
+  id: ClothingEyesEyepatchWhite
+  equipment:
+    eyes: ClothingEyesEyepatchWhite
+  groupBy: "eyepatches"
 
 - type: loadout
   id: ClothingEyesGlassesGar
