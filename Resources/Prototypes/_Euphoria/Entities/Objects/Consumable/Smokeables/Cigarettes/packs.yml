@@ -1,5 +1,5 @@
 ﻿- type: entity
-  id: CigPackSyndicateFake
+  id: CigPackInterdyne
   parent: CigPackSyndicate
   name: Interdyne herbals packet
   description: Premium medicinal cigarettes from the Interdyne Corporation. Smoke healthier, smoke smarter, smoke Interdynes.
@@ -7,5 +7,5 @@
   - type: EntityTableContainerFill
     containers:
       storagebase:
-        id: CigaretteSyndicateFake
+        id: CigaretteInterdyne
         amount: 10
