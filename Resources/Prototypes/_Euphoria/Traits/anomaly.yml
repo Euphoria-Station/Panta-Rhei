@@ -6,7 +6,7 @@
   cost: 5
   conditions:
   - !type:HasJobCondition
-    job: anomaly
+    job: Anomaly
   special:
   - !type:AddCompsEffect
     components:
@@ -21,7 +21,7 @@
   cost: 5
   conditions:
   - !type:HasJobCondition
-    job: anomaly
+    job: Anomaly
   effects:
   - !type:AddActionTraitEffect
     action: ActionSmoke
@@ -34,7 +34,7 @@
   cost: 5
   conditions:
   - !type:HasJobCondition
-    job: anomaly
+    job: Anomaly
   effects:
   - !type:AddActionTraitEffect
     action: ActionPsionicInvisibility
