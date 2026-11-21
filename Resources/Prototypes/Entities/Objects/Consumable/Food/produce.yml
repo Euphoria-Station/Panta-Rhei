@@ -342,15 +342,21 @@
     spawned:
     - id: TrashBananaPeel
     - id: FoodBananaPeeled
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 6
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 4
-        - ReagentId: Vitamin
-          Quantity: 2
+  #- type: SolutionContainerManager ## Euphoria
+    #solutions:
+      #food:
+        #maxVol: 6
+        #reagents:
+        #- ReagentId: Nutriment
+          #Quantity: 4
+        #- ReagentId: Vitamin
+          #Quantity: 2
+  - type: SpawnItemsOnUse # Euphoria
+    items:
+    - id: TrashBananaPeel
+    - id: FoodBananaPeeled
+    sound:
+      path: /Audio/Effects/unwrap.ogg
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
   - type: Item
@@ -390,15 +396,21 @@
     spawned:
     - id: TrashMimanaPeel
     - id: FoodMimanaPeeled
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 7
-        reagents:
-        - ReagentId: MuteToxin
-          Quantity: 5
-        - ReagentId: Vitamin
-          Quantity: 2
+  #- type: SolutionContainerManager # Euphoria
+    #solutions:
+      #food:
+        #maxVol: 7
+        #reagents:
+        #- ReagentId: MuteToxin
+          #Quantity: 5
+        #- ReagentId: Vitamin
+          #Quantity: 2
+  - type: SpawnItemsOnUse # Euphoria
+    items:
+    - id: TrashMimanaPeel
+    - id: FoodMimanaPeeled
+    sound:
+      path: /Audio/Effects/unwrap.ogg
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/mimana.rsi
   - type: Item
