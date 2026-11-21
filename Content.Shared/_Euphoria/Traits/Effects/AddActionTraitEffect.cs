@@ -7,7 +7,6 @@ namespace Content.Shared._Euphoria.Traits.Effects;
 
 public sealed partial class AddActionTraitEffect : BaseTraitEffect
 {
-    ActionContainerSystem actsys = default!;
     [DataField(required: true)]
     public EntProtoId Action;
 
