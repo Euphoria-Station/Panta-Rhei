@@ -169,6 +169,7 @@
     - PetWearable
     - HamsterWearable
     - WhitelistChameleon
+    - SecDogWearable # Euphoria
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
