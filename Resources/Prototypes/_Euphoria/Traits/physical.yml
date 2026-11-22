@@ -457,7 +457,6 @@
     conflicts:
     - PlasteelTalons
     - PlasteelKnuckles
-    - CrushingJaws
     - Claws
     - Talons
   - !type:OneOfSpeciesCondition
@@ -486,7 +485,6 @@
     conflicts:
     - PlasteelClaws
     - PlasteelKnuckles
-    - CrushingJaws
     - Claws
     - Talons
   - !type:OneOfSpeciesCondition
@@ -515,7 +513,6 @@
     conflicts:
     - PlasteelTalons
     - PlasteelClaws
-    - CrushingJaws
     - Claws
     - Talons
   - !type:OneOfSpeciesCondition
