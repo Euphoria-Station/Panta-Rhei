@@ -288,6 +288,12 @@
     jumpsuit: ClothingUniformJumpsuitCatsuitShiny
   groupBy: "lewdsuit"
 
+- type: loadout # Euphoria
+  id: ClothingUniformJumpsuitCatsuitBlank
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCatsuitBlank
+  groupBy: "lewdsuit"
+
 - type: loadout
   id: ClothingUniformLoinClothWhite
   equipment:
