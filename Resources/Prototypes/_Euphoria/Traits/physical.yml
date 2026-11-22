@@ -443,3 +443,111 @@
       interactSuccessSpawn: EffectHearts
       interactSuccessSound:
         path: /Audio/Animals/fox_squeak.ogg
+
+# improved natural weapons
+
+- type: trait
+  id: PlasteelClaws
+  name: trait-plasteel-claws-name
+  description: trait-plasteel-claws-desc
+  category: BonusPhysical
+  cost: 8
+  conditions:
+  - !type:TraitDependencyCondition
+    conflicts:
+    - PlasteelTalons
+    - PlasteelKnuckles
+    - CrushingJaw
+    - Claws
+    - Talons
+  - !type:OneOfSpeciesCondition
+    invert: true
+    species:
+      - Feroxi
+      - Arachnid
+      - Allulalo #these three species all use their mouths to attack instead of hands.
+  effects:
+  - !type:ModifyUnarmedTraitEffect
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 8
+
+- type: trait
+  id: PlasteelTalons
+  name: trait-plasteel-talons-name
+  description: trait-plasteel-talons-desc
+  category: BonusPhysical
+  cost: 8
+  conditions:
+  - !type:TraitDependencyCondition
+    conflicts:
+    - PlasteelClaws
+    - PlasteelKnuckles
+    - CrushingJaw
+    - Claws
+    - Talons
+  - !type:OneOfSpeciesCondition
+    invert: true
+    species:
+    - Feroxi
+    - Arachnid
+    - Allulalo #these three species all use their mouths to attack instead of hands.
+  effects:
+  - !type:ModifyUnarmedTraitEffect
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Piercing: 8
+
+- type: trait
+  id: PlasteelKnuckles
+  name: trait-plasteel-knuckles-name
+  description: trait-plasteel-knuckles-desc
+  category: BonusPhysical
+  cost: 8
+  conditions:
+  - !type:TraitDependencyCondition
+    conflicts:
+    - PlasteelTalons
+    - PlasteelClaws
+    - CrushingJaw
+    - Claws
+    - Talons
+  - !type:OneOfSpeciesCondition
+    invert: true
+    species:
+    - Feroxi
+    - Arachnid
+    - Allulalo #these three species all use their mouths to attack instead of hands.
+  effects:
+  - !type:ModifyUnarmedTraitEffect
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Blunt: 8
+
+- type: trait
+  id: CrushingJaws
+  name: trait-crushing-jaws-name
+  description: trait-crushing-jaws-desc
+  category: BonusPhysical
+  cost: 8
+  conditions:
+  - !type:OneOfSpeciesCondition
+    invert: false
+    species:
+    - Feroxi
+    - Arachnid
+    - Allulalo #these three species all use their mouths to attack instead of hands.
+  effects:
+  - !type:ModifyUnarmedTraitEffect
+    flatDamageIncrease:
+      types:
+        Blunt: 3

@@ -18,3 +18,13 @@ trait-healing-plus-2-name = Regeneration: Superior
 trait-healing-plus-2-desc = Your ability to heal is even better, but you have increased thirst and hunger.
 trait-pettable-name = Pettable
 trait-pettable-desc = You are very pettable, you find that crew members have a much easier time petting you on the top of your floofy head...
+
+trait-plasteel-claws-desc = You have claws made of plasteel, making them much sharper and more durable than natural claws.
+trait-plasteel-talons-desc = You have talons made of plasteel, making them much sharper and more durable than natural talons.
+trait-plasteel-knuckles-desc = Your fists or knuckles are made of plasteel, allowing you to punch much harder than everyone else.
+trait-crushing-jaws-desc = Either through bionics, or just raw freakish strength, your jaws are much stronger than most of your species. You deal 3 bonus blunt damage with unarmed attacks.
+
+trait-plasteel-claws-name = Plasteel Claws
+trait-plasteel-talons-name = Plasteel Talons
+trait-plasteel-knuckles-name = Plasteel Knuckles
+trait-crushing-jaws-name = Crushing Jaws
