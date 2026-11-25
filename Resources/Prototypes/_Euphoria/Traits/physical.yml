@@ -450,7 +450,7 @@
   id: PlasteelClaws
   name: trait-plasteel-claws-name
   description: trait-plasteel-claws-desc
-  category: BonusPhysical
+  category: Cybernetics
   cost: 8
   conditions:
   - !type:TraitDependencyCondition
@@ -478,7 +478,7 @@
   id: PlasteelTalons
   name: trait-plasteel-talons-name
   description: trait-plasteel-talons-desc
-  category: BonusPhysical
+  category: Cybernetics
   cost: 8
   conditions:
   - !type:TraitDependencyCondition
@@ -506,7 +506,7 @@
   id: PlasteelKnuckles
   name: trait-plasteel-knuckles-name
   description: trait-plasteel-knuckles-desc
-  category: BonusPhysical
+  category: Cybernetics
   cost: 8
   conditions:
   - !type:TraitDependencyCondition
@@ -534,7 +534,7 @@
   id: CrushingJaws
   name: trait-crushing-jaws-name
   description: trait-crushing-jaws-desc
-  category: BonusPhysical
+  category: Cybernetics
   cost: 8
   conditions:
   - !type:OneOfSpeciesCondition
