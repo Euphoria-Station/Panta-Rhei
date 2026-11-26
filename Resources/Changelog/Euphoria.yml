@@ -7258,3 +7258,61 @@ Entries:
       message: Buffed space
   id: 898
   time: '2026-11-21T22:14:06.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added clown noses so clowns can show of their pretty (or not so pretty)
+        faces as they perform! Honk Honk!
+  id: 899
+  time: '2026-11-23T10:33:54.0000000+00:00'
+- author: SapphicBingus
+  changes:
+    - type: Fix
+      message: Fixed arachnids being able to take the claws trait even though they bite
+  id: 900
+  time: '2026-11-25T07:45:46.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Tweak
+      message: rotated baguette in-bag sprites to be paralell with their bounding box
+    - type: Fix
+      message: made both baguettes 3x1
+  id: 901
+  time: '2026-11-25T07:46:34.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: added cannabis seeds to the contra inventory of the MegaSeed Servitor
+  id: 902
+  time: '2026-11-25T07:47:11.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Construction bags should now be able to pick up tiles again.
+    - type: Tweak
+      message: >-
+        The base PKA in salvage lockers now can be upgraded, it now has a 75%
+        upgrade capacity.
+    - type: Fix
+      message: The range and speed PKA upgrades should now work as intended.
+  id: 903
+  time: '2026-11-25T07:47:55.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Fix
+      message: Borgs can now see what ID icon you have again!
+  id: 904
+  time: '2026-11-25T07:48:47.0000000+00:00'
+- author: SapphicBingus
+  changes:
+    - type: Tweak
+      message: Made the Berry Delight recipe match the sprite
+  id: 905
+  time: '2026-11-25T08:08:40.0000000+00:00'
+- author: firemoos20
+  changes:
+    - type: Add
+      message: Added the frotdog >:)
+  id: 906
+  time: '2026-11-25T08:09:25.0000000+00:00'
