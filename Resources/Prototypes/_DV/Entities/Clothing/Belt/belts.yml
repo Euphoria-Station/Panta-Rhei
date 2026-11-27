@@ -58,8 +58,8 @@
         insertOnInteract: false # or you can't easily stow medkits in your rig.
   - type: Storage
     grid:
-    - 0,0,2,1
-    - 4,0,7,1
+    - 0,0,3,1 # Euphoria - Same total slots as sec belt
+    - 5,0,8,1
   - type: ItemMapper # add stowed medkit sprite
     mapLayers:
       medkit:

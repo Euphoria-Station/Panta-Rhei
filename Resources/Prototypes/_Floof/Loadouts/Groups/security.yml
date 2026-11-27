@@ -11,6 +11,24 @@
   - SeniorSecOfficerTurtleskirt
 
 # ======================================================== #
+
+# ======================================================== #
+# masks
+- type: loadoutGroup
+  id: FloofSecurityMasks
+  name: loadout-group-security-mask
+  minLimit: 0
+  loadouts:
+  - MaskSecBreathMask
+  - MaskSecGasMask
+  - MaskSecGasCombat
+  - MaskSecDrone
+  - MaskSecDroneHoodless
+  - MaskSecSwat
+  - MaskSecSwatOpen
+
+# ======================================================== #
+
 # HOS additions
 - type: loadoutGroup
   id: FloofHosGloves
@@ -124,6 +142,13 @@
   parent: FloofSocksPassenger
   loadouts:
   - ClothingUnderSocksDetective
+
+- type: loadoutGroup
+  id: FloofDetectiveBelt
+  parent: SecurityBelt
+  name: loadout-group-detective-belt
+  loadouts:
+  - ShoulderHolster
 
 # ======================================================== #
 # corpsman additions

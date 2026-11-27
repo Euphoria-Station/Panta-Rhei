@@ -42,6 +42,8 @@
   - BrigMedicHead
   - CorpsmanEyewear
   - BrigMedicNeck
+  - PassengerFace # Euphoria - give mask options
+  - FloofSecurityMasks # Euphoria - choose sec masks
   - BrigMedicJumpsuit
   - BrigMedicBack
   - FloofCorpsmanGloves # Floofstation give corpsman gloves
@@ -50,8 +52,8 @@
   - FloofCorpsmanShoes # Floofstation give corpsman shoes
   - SurvivalSecurity
   - GroupSpeciesBreathToolCorpsman
-  - SecurityFirearm
-  - SecurityFirearmAmmo
+  - SecurityAllFirearm # Euphoria - Was SecurityFirearm
+  - SecurityAllAmmo # Euphoria - Was SecurityFirearmAmmo
   - FloofUndergarmentTopCorpsman # Floof
   - FloofUndergarmentBottomCorpsman # Floof
   - FloofSocksCorpsman # Floof

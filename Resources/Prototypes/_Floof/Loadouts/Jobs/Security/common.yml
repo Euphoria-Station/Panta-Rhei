@@ -12,3 +12,47 @@
   id: UniformSecCatsuit
   equipment:
     jumpsuit: ClothingUniformSecCatsuit
+
+
+# Security masks
+
+- type: loadout
+  id: MaskSecBreathMask
+  equipment:
+    mask: ClothingMaskGasSecurity
+
+- type: loadout
+  id: MaskSecGasMask
+  equipment:
+    mask: ClothingMaskGasSecurityDV
+
+- type: loadout
+  id: MaskSecGasCombat
+  equipment:
+    mask: ClothingMaskGasSecCombat
+
+- type: loadout
+  id: MaskSecDrone
+  equipment:
+    mask: ClothingMaskGasDroneSecurity
+
+- type: loadout
+  id: MaskSecDroneHoodless
+  equipment:
+    mask: ClothingMaskGasDroneSecurityHoodless
+
+- type: loadout
+  id: MaskSecSwat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  equipment:
+    mask: ClothingMaskGasSwat
+
+- type: loadout
+  id: MaskSecSwatOpen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  equipment:
+    mask: ClothingMaskGasSwatOpen

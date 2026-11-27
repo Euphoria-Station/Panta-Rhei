@@ -8,10 +8,10 @@
     eyes: ClothingEyesGlassesSunglasses # Euph - Replace security glasses
 
 # Prescription Security Glasses
-- type: loadout
-  id: PrescriptionSecurityGlasses
-  equipment:
-    eyes: ClothingEyesPrescriptionSecurityGlasses
+#- type: loadout
+#  id: PrescriptionSecurityGlasses
+#  equipment:
+#    eyes: ClothingEyesPrescriptionSecurityGlasses # Euph - Research locked
 
 # Security Hud
 - type: loadout
