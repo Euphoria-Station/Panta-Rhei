@@ -7218,3 +7218,119 @@ Entries:
         and open doors.
   id: 893
   time: '2026-11-15T07:31:59.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Tweak
+      message: Port of Try/Catch changes for ahelps
+  id: 894
+  time: '2026-11-19T10:22:48.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Add
+      message: menu for voresystem for customization
+  id: 895
+  time: '2026-11-20T09:38:07.0000000+00:00'
+- author: mrfluxstone
+  changes:
+    - type: Add
+      message: lethal range option for escalation module
+    - type: Add
+      message: crowbar to patrol module
+    - type: Tweak
+      message: >-
+        changed the deescalation module to include two proper handcuffs instead
+        of a ziptie and a cuff
+    - type: Tweak
+      message: changed existing secborg modules to always include whistle and seclight
+  id: 896
+  time: '2026-11-21T01:32:05.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        All watcher types should now drop the proper resource to make
+        upgradeable crusher components.
+  id: 897
+  time: '2026-11-21T01:35:46.0000000+00:00'
+- author: JFerrix
+  changes:
+    - type: Tweak
+      message: Buffed space
+  id: 898
+  time: '2026-11-21T22:14:06.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added clown noses so clowns can show of their pretty (or not so pretty)
+        faces as they perform! Honk Honk!
+  id: 899
+  time: '2026-11-23T10:33:54.0000000+00:00'
+- author: SapphicBingus
+  changes:
+    - type: Fix
+      message: Fixed arachnids being able to take the claws trait even though they bite
+  id: 900
+  time: '2026-11-25T07:45:46.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Tweak
+      message: rotated baguette in-bag sprites to be paralell with their bounding box
+    - type: Fix
+      message: made both baguettes 3x1
+  id: 901
+  time: '2026-11-25T07:46:34.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: added cannabis seeds to the contra inventory of the MegaSeed Servitor
+  id: 902
+  time: '2026-11-25T07:47:11.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Construction bags should now be able to pick up tiles again.
+    - type: Tweak
+      message: >-
+        The base PKA in salvage lockers now can be upgraded, it now has a 75%
+        upgrade capacity.
+    - type: Fix
+      message: The range and speed PKA upgrades should now work as intended.
+  id: 903
+  time: '2026-11-25T07:47:55.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Fix
+      message: Borgs can now see what ID icon you have again!
+  id: 904
+  time: '2026-11-25T07:48:47.0000000+00:00'
+- author: SapphicBingus
+  changes:
+    - type: Tweak
+      message: Made the Berry Delight recipe match the sprite
+  id: 905
+  time: '2026-11-25T08:08:40.0000000+00:00'
+- author: firemoos20
+  changes:
+    - type: Add
+      message: Added the frotdog >:)
+  id: 906
+  time: '2026-11-25T08:09:25.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Fix
+      message: fixed two typos in the VB longneck
+  id: 907
+  time: '2026-11-27T18:30:00.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Add
+      message: >-
+        Added hot chocolate pots, coffee pots, cocoa powder, tea cups, and two
+        kinds of creamers and sugar bowls to the barista vendor.
+    - type: Remove
+      message: Removed some of the "How to Make Tea for Dorks".
+    - type: Tweak
+      message: 'Changed the barista vendor to have a constant stock. '
+  id: 908
+  time: '2026-11-27T18:30:45.0000000+00:00'
