@@ -1,7 +1,17 @@
 - type: markingsGroup
   parent: [Undergarments, EuphoriaCommonMarkingLayers]
   id: Tajaran
-  limits: {} # Only common ones
+  limits:
+      # Euphoria Start - Urist/default correction
+      enum.HumanoidVisualLayers.Tail:
+        limit: 1
+        required: true
+        default: [ TajaranTailRetro ]
+      enum.HumanoidVisualLayers.HeadTop:
+        limit: 1
+        required: true
+        default: [ TajaranEarsRetro ]
+      # Euphoria End
 
 - type: entity
   parent: BaseSpeciesAppearance
