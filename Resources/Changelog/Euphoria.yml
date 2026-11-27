@@ -7403,3 +7403,19 @@ Entries:
       message: fixed shadekin tails layering improperly
   id: 915
   time: '2026-11-27T22:41:14.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: >-
+        added the LO's solid gold shades, truly drip-tacular sunglasses for only
+        the richest of LOs
+    - type: Tweak
+      message: edited the name and description of the QM's golden knuckle dusters
+    - type: Tweak
+      message: made knuckle duster hits sound more meaty
+    - type: Tweak
+      message: >-
+        gave the LO's knuckle dusters structural damage, for when the LO wants
+        to rennovate the fun way
+  id: 916
+  time: '2026-11-27T22:42:56.0000000+00:00'
