@@ -32,38 +32,63 @@
   id: TailShadowkin
   bodyPart: Tail
   forcedColoring: true
+  layering:
+    shadowkin: TailOversuit
+    shadowkin-BACK: TailOverlay
   sprites:
     - sprite: _Floof/Mobs/Customization/Shadowkin/tails64x32.rsi
       state: shadowkin
+    - sprite: _Floof/Mobs/Customization/Shadowkin/tails64x32.rsi
+      state: shadowkin-BACK
 
 - type: marking
   id: TailShadowkinBig
   bodyPart: Tail
   forcedColoring: true
+  layering:
+    shadowkin_big: TailOversuit
+    shadowkin_big-BACK: TailOverlay
   sprites:
     - sprite: _Floof/Mobs/Customization/Shadowkin/tails64x32.rsi
       state: shadowkin_big
+    - sprite: _Floof/Mobs/Customization/Shadowkin/tails64x32.rsi
+      state: shadowkin_big-BACK
 
 - type: marking
   id: TailShadowkinBigFluff
   bodyPart: Tail
   forcedColoring: true
+  layering:
+    shadowkin_big_fluff: TailOversuit
+    shadowkin_big_fluff-BACK: TailOverlay
   sprites:
     - sprite: _Floof/Mobs/Customization/Shadowkin/tails64x32.rsi
       state: shadowkin_big_fluff
+    - sprite: _Floof/Mobs/Customization/Shadowkin/tails64x32.rsi
+      state: shadowkin_big_fluff-BACK
 
 - type: marking
   id: TailShadowkinShorter
   bodyPart: Tail
   forcedColoring: true
+  layering:
+    shadowkin_shorter: TailOversuit
+    shadowkin_shorter-BACK: TailOverlay
   sprites:
     - sprite: _Floof/Mobs/Customization/Shadowkin/tails32x32.rsi
       state: shadowkin_shorter
+    - sprite: _Floof/Mobs/Customization/Shadowkin/tails32x32.rsi
+      state: shadowkin_shorter-BACK
 
 - type: marking
   id: TailShadowkinMedium
   bodyPart: Tail
   forcedColoring: true
+  layering:
+    shadowkin_medium: TailOversuit
+    shadowkin_medium-BACK: TailOverlay
   sprites:
     - sprite: _Floof/Mobs/Customization/Shadowkin/tails32x32.rsi
       state: shadowkin_medium
+    - sprite: _Floof/Mobs/Customization/Shadowkin/tails32x32.rsi
+      state: shadowkin_medium-BACK

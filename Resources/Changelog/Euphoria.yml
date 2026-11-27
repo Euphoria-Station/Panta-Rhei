@@ -7348,3 +7348,104 @@ Entries:
       message: Emergency EVA suit name works again.
   id: 910
   time: '2026-11-27T18:58:27.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Reptilian accent trait.
+    - type: Add
+      message: Reptilian emote replacement trait.
+    - type: Add
+      message: >-
+        A new trait that lets non-reptile characters get gas mask and hardsuit
+        tail adjustments when taking lizard markings.
+  id: 911
+  time: '2026-11-27T22:29:06.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Plant Analyzers can now fit in botany tool belts.
+  id: 912
+  time: '2026-11-27T22:29:39.0000000+00:00'
+- author: FeatherFelice
+  changes:
+    - type: Add
+      message: >-
+        New trait! Weak Servos : Your servo motors and actuators are either
+        ancient, cheap or damaged, or your hydraulics' pressure is low... or
+        you're just built underpowered. One thing is sure, you're weak.
+    - type: Add
+      message: >-
+        New trait! Heavy Machinery :  Your body is built like a tank... or a
+        forklift. It might have been built for combat, or for a mining
+        operation, all in all you're heavy, strong and durable.
+    - type: Tweak
+      message: >-
+        the weakness trait now has a couple new exclusions, as not to be
+        combined with the weak servors or heavymachinery traits. It is still
+        available to Aesthetic Skus and Porcelain Doll havers.
+    - type: Fix
+      message: Fixed digital frustration
+  id: 913
+  time: '2026-11-27T22:35:15.0000000+00:00'
+- author: PaperShadow
+  changes:
+    - type: Add
+      message: Added a White Eyepatch.
+    - type: Tweak
+      message: >-
+        Made the Blank Latex Catsuit available in the Loadout and Lewd Clothing
+        Vendor.
+  id: 914
+  time: '2026-11-27T22:38:48.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Fix
+      message: fixed shadekin tails layering improperly
+  id: 915
+  time: '2026-11-27T22:41:14.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: >-
+        added the LO's solid gold shades, truly drip-tacular sunglasses for only
+        the richest of LOs
+    - type: Tweak
+      message: edited the name and description of the QM's golden knuckle dusters
+    - type: Tweak
+      message: made knuckle duster hits sound more meaty
+    - type: Tweak
+      message: >-
+        gave the LO's knuckle dusters structural damage, for when the LO wants
+        to rennovate the fun way
+  id: 916
+  time: '2026-11-27T22:42:56.0000000+00:00'
+- author: ASaltySeabass
+  changes:
+    - type: Add
+      message: Security officers can now choose a mask in their loadout
+    - type: Add
+      message: Added some new gas masks for security
+    - type: Add
+      message: Detectives can choose their belt in the loadout
+    - type: Tweak
+      message: All security jobs can take any available sidearm
+    - type: Tweak
+      message: >-
+        The security and corpsman webbing has two extra slots, for parity with
+        the security belt.
+    - type: Remove
+      message: Prescription Security Glasses are no longer available in loadouts.
+  id: 917
+  time: '2026-11-27T23:09:31.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Add
+      message: Added most slime markings back to the common marking pool.
+  id: 918
+  time: '2026-11-27T23:11:34.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: Rainbow iscream will now have a taste.
+  id: 919
+  time: '2026-11-27T23:16:27.0000000+00:00'

@@ -63,7 +63,21 @@
   - !type:AddTagTraitEffect
     tagsToAdd: SlimeEmotes
 
-
+# lizard person
+- type: trait
+  id: TraitsEmoteLizardPerson
+  name: trait-emote-lizard
+  description: trait-emote-lizard-description
+  category: Emotes
+  cost: 0
+  effects:
+  - !type:EmoteSoundsEffect
+    sounds:
+      Male: MaleReptilian
+      Female: FemaleReptilian
+      Unsexed: MaleReptilian
+  - !type:AddTagTraitEffect
+    tagsToAdd: UnathiEmotes
 
 # shadekin alt
 - type: trait

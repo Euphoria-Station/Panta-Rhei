@@ -216,6 +216,8 @@
       weight: 0.03
     - id: ClothingEyesEyepatch
       weight: 0.03
+    - id: ClothingEyesEyepatchWhite #Euphoria
+      weight: 0.03
     - id: ClothingMaskBreath
       weight: 0.03
     - id: ClothingOuterCoatLab

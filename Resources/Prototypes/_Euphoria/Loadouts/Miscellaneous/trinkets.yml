@@ -410,3 +410,9 @@
   storage:
     back:
     - ClothingMaskBubblePipe
+
+- type: loadout
+  id: EyepatchWhite
+  equipment:
+    eyes: ClothingEyesEyepatchWhite
+  groupBy: "eyepatches"

@@ -45,3 +45,7 @@
   equipment:
     undergarmentSocks: ClothingUnderSocksDetective
 
+- type: loadout
+  id: ShoulderHolster
+  equipment:
+    belt: ClothingBeltHolster

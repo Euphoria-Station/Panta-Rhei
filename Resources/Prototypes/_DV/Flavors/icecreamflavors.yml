@@ -41,4 +41,4 @@
 - type: flavor
   id: IceCreamRainbow
   flavorType: Complex
-  description: flavor-complex-icecream-rainbow
+  description: flavor-complex-sherbert-rainbow # Euphoria - i dont feel like renaming upstream ftl so will just use what they forgot to rename

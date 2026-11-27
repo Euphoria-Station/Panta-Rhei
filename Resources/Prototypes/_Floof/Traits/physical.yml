@@ -167,6 +167,8 @@
   - !type:TraitDependencyCondition
     conflicts:
     - Vigor
+    - Weakservos # Euphoria
+    - HeavyMachinery # Euphoria
   - !type:HasCompCondition
     component: BorgChassis
     invert: true
@@ -906,6 +908,16 @@
   effects:
   - !type:SetInventoryEffect
     speciesId: vulpkanin # for the snooties
+
+- type: trait
+  id: SnoutLizardGasMask
+  name: trait-lizard-species-gas-mask
+  description: trait-lizard-species-gas-mask-description
+  category: Visuals
+  cost: 0
+  effects:
+  - !type:SetInventoryEffect
+    speciesId: reptilian # for the snooties
 
 - type: trait
   id: Preening

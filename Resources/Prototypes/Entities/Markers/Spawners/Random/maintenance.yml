@@ -45,6 +45,7 @@
       - id: ClothingBeltSuspendersRed
       - id: ClothingBeltSuspendersBlack
       - id: ClothingEyesEyepatch
+      - id: ClothingEyesEyepatchWhite # Euphoria
       - id: ClothingEyesGlasses
       - id: ClothingHandsGlovesLatex
       - id: ClothingHandsGlovesFingerless
