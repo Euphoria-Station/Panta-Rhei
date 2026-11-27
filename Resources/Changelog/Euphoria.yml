@@ -7419,3 +7419,21 @@ Entries:
         to rennovate the fun way
   id: 916
   time: '2026-11-27T22:42:56.0000000+00:00'
+- author: ASaltySeabass
+  changes:
+    - type: Add
+      message: Security officers can now choose a mask in their loadout
+    - type: Add
+      message: Added some new gas masks for security
+    - type: Add
+      message: Detectives can choose their belt in the loadout
+    - type: Tweak
+      message: All security jobs can take any available sidearm
+    - type: Tweak
+      message: >-
+        The security and corpsman webbing has two extra slots, for parity with
+        the security belt.
+    - type: Remove
+      message: Prescription Security Glasses are no longer available in loadouts.
+  id: 917
+  time: '2026-11-27T23:09:31.0000000+00:00'
