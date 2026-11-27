@@ -7437,3 +7437,9 @@ Entries:
       message: Prescription Security Glasses are no longer available in loadouts.
   id: 917
   time: '2026-11-27T23:09:31.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Add
+      message: Added most slime markings back to the common marking pool.
+  id: 918
+  time: '2026-11-27T23:11:34.0000000+00:00'
