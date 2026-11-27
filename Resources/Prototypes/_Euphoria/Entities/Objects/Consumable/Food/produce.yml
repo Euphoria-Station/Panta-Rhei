@@ -118,3 +118,87 @@
       Taco: BlueRaspberry
       Skewer: BlueRaspberry
       Hotdog: BlueRaspberry
+
+- type: entity
+  name: peeled banana
+  parent: FoodProduceBase
+  id: FoodBananaPeeled
+  description: Rich in potassium. Peeled for your convenience.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - banana
+  - type: Edible
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 6
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 4
+        - ReagentId: Vitamin
+          Quantity: 2
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/peeled_bananas.rsi
+    state: banana-peeled
+  - type: Item
+    heldPrefix: produce
+  - type: Produce
+    seedId: banana
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: JuiceBanana
+        Quantity: 10
+  - type: Tag
+    tags:
+    - Fruit
+    - Banana
+  - type: FoodSequenceElement
+    entries:
+      Burger: Banana
+      Taco: Banana
+      Hotdog: Banana
+
+- type: entity
+  name: peeled mimana
+  parent: FoodProduceBase
+  id: FoodMimanaPeeled
+  description: Mime's favorite. Peeled for your convenience.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - banana
+    - nothing
+  - type: Edible
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 7
+        reagents:
+        - ReagentId: MuteToxin
+          Quantity: 5
+        - ReagentId: Vitamin
+          Quantity: 2
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/peeled_bananas.rsi
+    state: mimana-peeled
+  - type: Item
+    heldPrefix: produce
+  - type: Produce
+    seedId: mimana
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: JuiceBanana
+        Quantity: 10
+      - ReagentId: Nothing
+        Quantity: 5
+  - type: Tag
+    tags:
+    - Fruit
+  - type: FoodSequenceElement
+    entries:
+      Burger: Mimana
+      Taco: Mimana
+      Hotdog: Mimana
