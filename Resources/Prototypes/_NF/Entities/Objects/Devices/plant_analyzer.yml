@@ -43,6 +43,9 @@
     drawRate: 0
     useCharge: 40
   - type: ActivatableUIRequiresPowerCell
+  - type: Tag # Euphoria - tag so these can go into botany belts
+    tags:
+    - PlantAnalyzer
 
 - type: entity
   id: PlantAnalyzerEmpty
