@@ -644,9 +644,9 @@
     conflicts:
     - Tenacity
     - WillToLive
-  - !type:InDepartmentCondition
-    department: Command
+  - !type:HasJobCondition
     invert: true
+    job: Captain
   - !type:InDepartmentCondition
     department: Security
     invert: true
