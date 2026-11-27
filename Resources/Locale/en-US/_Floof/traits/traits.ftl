@@ -116,3 +116,5 @@ trait-desc-tiny = Due to a mutation, transformation, or other metaphysical circu
     Due to your size, you struggle to move things (40% longer pry times) and can't put as much force in your swings (20% reduced melee and stamina damage).
     You also are more vulnerable ( 20% reduced crit and death thresholds) and have to exert more effort (20% reduced stamina).
 
+trait-reptilian-accent-name = Reptilian accent
+trait-reptilian-accent-desc = Your tongue worksss differently than othersss making hard to pronounce some wordsss and lettersss.

@@ -16,3 +16,20 @@
     - type: Speech
       speechSounds: Dog
       speechVerb: Canine
+
+- type: trait
+  id: ReptilianAccent
+  name: trait-reptilian-accent-name
+  description: trait-reptilian-accent-desc
+  category: Accents
+  cost: 0
+  usesSlots: false
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LizardAccent
+  - !type:OverrideCompsEffect
+    components:
+    - type: Speech
+      speechSounds: Lizard
+      speechVerb: Reptilian
