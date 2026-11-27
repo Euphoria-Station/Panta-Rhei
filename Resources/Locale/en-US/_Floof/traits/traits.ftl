@@ -117,4 +117,4 @@ trait-desc-tiny = Due to a mutation, transformation, or other metaphysical circu
     You also are more vulnerable ( 20% reduced crit and death thresholds) and have to exert more effort (20% reduced stamina).
 
 trait-reptilian-accent-name = Reptilian accent
-trait-reptilian-accent-desc = Your tongue worksss differently than othersss making hard to pronounce some wordsss and lettersss.
+trait-reptilian-accent-desc = Your tongue worksss differently than othersss making hard to pronounce sssome wordsss and lettersss.
