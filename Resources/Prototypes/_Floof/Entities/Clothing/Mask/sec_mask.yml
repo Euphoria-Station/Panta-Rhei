@@ -1,9 +1,9 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseSecurityContraband ]
   id: ClothingMaskGasSwatOpen # Same as the regular SWAT mask, just doesn't hide your ears. Not parented off the default because it's really hard to unhide layers.
-  name: swat gas mask
-  suffix: Open
-  description: A elite issue Security gas mask.
+  name: swat gas mask (open)
+#  suffix: Open
+  description: A elite issue Security gas mask. It has openings to accomodate ears and antennae.
   components:
   - type: Sprite
     sprite: _DV/Clothing/Mask/swat.rsi # DeltaV - Blue Security Resprite
@@ -53,9 +53,9 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasDroneSecurityHoodless
-  name: security rubber gas mask
+  name: security rubber gas mask (hoodless)
   description: A gas mask made of dark rubber with a tinted visor. This one is made out of more durable materials and painted in security colors.
-  suffix: Hoodless # TheDen
+#  suffix: Hoodless # TheDen
   components:
   - type: Sprite
     sprite: _Euphoria/Clothing/Mask/secdronegasmask.rsi
