@@ -7348,3 +7348,15 @@ Entries:
       message: Emergency EVA suit name works again.
   id: 910
   time: '2026-11-27T18:58:27.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Reptilian accent trait.
+    - type: Add
+      message: Reptilian emote replacement trait.
+    - type: Add
+      message: >-
+        A new trait that lets non-reptile characters get gas mask and hardsuit
+        tail adjustments when taking lizard markings.
+  id: 911
+  time: '2026-11-27T22:29:06.0000000+00:00'
