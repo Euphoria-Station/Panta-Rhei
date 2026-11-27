@@ -7316,3 +7316,35 @@ Entries:
       message: Added the frotdog >:)
   id: 906
   time: '2026-11-25T08:09:25.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Fix
+      message: fixed two typos in the VB longneck
+  id: 907
+  time: '2026-11-27T18:30:00.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Add
+      message: >-
+        Added hot chocolate pots, coffee pots, cocoa powder, tea cups, and two
+        kinds of creamers and sugar bowls to the barista vendor.
+    - type: Remove
+      message: Removed some of the "How to Make Tea for Dorks".
+    - type: Tweak
+      message: 'Changed the barista vendor to have a constant stock. '
+  id: 908
+  time: '2026-11-27T18:30:45.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the conflict on Foot In The Grave trait from Command to Captain.
+        Now people like HoP can be wet tissue paper. 
+  id: 909
+  time: '2026-11-27T18:54:27.0000000+00:00'
+- author: LynnWaffle
+  changes:
+    - type: Fix
+      message: Emergency EVA suit name works again.
+  id: 910
+  time: '2026-11-27T18:58:27.0000000+00:00'
