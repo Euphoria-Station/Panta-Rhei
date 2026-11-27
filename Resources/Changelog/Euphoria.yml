@@ -7360,3 +7360,9 @@ Entries:
         tail adjustments when taking lizard markings.
   id: 911
   time: '2026-11-27T22:29:06.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Plant Analyzers can now fit in botany tool belts.
+  id: 912
+  time: '2026-11-27T22:29:39.0000000+00:00'
