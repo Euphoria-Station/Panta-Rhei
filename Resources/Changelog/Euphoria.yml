@@ -7387,3 +7387,13 @@ Entries:
       message: Fixed digital frustration
   id: 913
   time: '2026-11-27T22:35:15.0000000+00:00'
+- author: PaperShadow
+  changes:
+    - type: Add
+      message: Added a White Eyepatch.
+    - type: Tweak
+      message: >-
+        Made the Blank Latex Catsuit available in the Loadout and Lewd Clothing
+        Vendor.
+  id: 914
+  time: '2026-11-27T22:38:48.0000000+00:00'
