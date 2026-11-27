@@ -7397,3 +7397,9 @@ Entries:
         Vendor.
   id: 914
   time: '2026-11-27T22:38:48.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Fix
+      message: fixed shadekin tails layering improperly
+  id: 915
+  time: '2026-11-27T22:41:14.0000000+00:00'
