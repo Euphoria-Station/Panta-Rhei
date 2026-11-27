@@ -198,10 +198,10 @@
       collection: HarpyCaws
     Chirp:
       collection: ResomiChirps
-    HarpySquawk: 
+    HarpySquawk:
       collection: ResomiSquawk
     Coo:
-      collection: HarpyCoos 
+      collection: HarpyCoos
     Call:
       collection: ResomiCalls
     Scree:
@@ -209,7 +209,7 @@
     HarpyQuack:
       collection: HarpyQuacks
     # End Euphoria
-      
+
 - type: emoteSounds
   id: Suppy
   params:
@@ -255,3 +255,75 @@
     DefaultDeathgasp:
       path: /Audio/_EE/Supermatter/status/ohfuck.ogg
 
+- type: emoteSounds
+  id: MaleOvinia
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_MACRO/Voice/Ovinia/ovinia-scream_m.ogg
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Yawn:
+      collection: MaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: MaleSigh
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Baa:
+      collection: OviniaMaleBaa
+    Moo:
+      collection: CowMoo
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
+
+- type: emoteSounds
+  id: FemaleOvinia
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_MACRO/Voice/Ovinia/ovinia-scream_f.ogg
+
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Yawn:
+      collection: FemaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: FemaleSigh
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
+    Baa:
+      collection: OviniaFemaleBaa
+    Moo:
+      collection: CowMoo
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp

@@ -115,3 +115,11 @@
   components:
   - type: Implanter
     implant: SiikMaasTranslatorImplant
+
+- type: entity
+  id: CaprineTranslatorImplanter
+  parent: [ BaseTranslatorImplanter ]
+  name: caprine translator implant
+  components:
+  - type: Implanter
+    implant: CaprineTranslatorImplant

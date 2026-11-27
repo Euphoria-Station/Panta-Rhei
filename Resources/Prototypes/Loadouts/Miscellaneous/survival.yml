@@ -36,6 +36,7 @@
     - Arachne
     - Resomi
     # Euphoria additions end
+    - Ovinia # macro
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
@@ -106,6 +107,7 @@
     - Avali
     # End DeltaV additions
     - Tajaran #floof
+    - Ovinia # macro
 
 - type: loadoutEffectGroup
   id: OxygenBreatherMimeMoth

@@ -5,7 +5,7 @@
   - chat-speech-verb-electricity-1
   - chat-speech-verb-electricity-2
   - chat-speech-verb-electricity-3
-  
+
 - type: speechVerb
   id: Allulalo
   name: chat-speech-verb-name-allulalo
@@ -14,3 +14,12 @@
   - chat-speech-verb-allulalo-2
   - chat-speech-verb-allulalo-3
   - chat-speech-verb-allulalo-4
+
+- type: speechVerb
+  id: Ovinia
+  name: chat-speech-verb-name-ovinia
+  speechVerbStrings:
+  - chat-speech-verb-ovinia-1
+  - chat-speech-verb-ovinia-2
+  - chat-speech-verb-ovinia-3
+  - chat-speech-verb-ovinia-4

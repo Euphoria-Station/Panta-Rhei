@@ -82,3 +82,19 @@
       Male: MaleShadowkinAlt
       Female: FemaleShadowkinAlt
       Unsexed: MaleShadowkinAlt
+
+# ovinia
+- type: trait
+  id: TraitsEmoteOvinia
+  name: trait-emote-ovinia
+  description: trait-emote-ovinia-description
+  category: Emotes
+  cost: 0
+  effects:
+  - !type:EmoteSoundsEffect
+    sounds:
+      Male: MaleOvinia
+      Female: FemaleOvinia
+      Unsexed: MaleOvinia
+  - !type:AddTagTraitEffect
+    tagsToAdd: OviniaEmotes

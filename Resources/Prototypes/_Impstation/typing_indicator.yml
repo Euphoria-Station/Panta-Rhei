@@ -4,3 +4,10 @@
   typingState: allulalo
   idleState: allulalo-idle
   offset: -0.45, 0.35
+
+- type: typingIndicator
+  id: ovinia
+  spritePath: /Textures/_Impstation/Effects/speech.rsi
+  typingState: ovinia0
+  idleState: ovinia-idle
+  offset: 0, 0

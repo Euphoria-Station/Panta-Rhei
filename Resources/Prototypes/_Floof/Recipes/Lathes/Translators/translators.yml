@@ -150,3 +150,13 @@
     Glass: 100
     Plastic: 50
     Gold: 50
+
+- type: latheRecipe
+  id: CaprineTranslator
+  result: CaprineTranslator
+  completetime: 2
+  materials:
+    Steel: 500
+    Glass: 100
+    Plastic: 50
+    Gold: 50

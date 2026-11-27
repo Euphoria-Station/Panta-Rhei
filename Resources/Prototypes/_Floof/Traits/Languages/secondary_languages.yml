@@ -322,3 +322,21 @@
     - Draconic
     languagesUnderstood:
     - Draconic
+
+- type: trait
+  id: Caprine
+  name: trait-Caprine-name
+  description: trait-Caprine-desc
+  category: Languages
+  cost: 1
+  conditions:
+  - !type:OneOfSpeciesCondition
+    invert: true
+    species:
+    - Ovinia
+  effects:
+  - !type:ModifyLanguagesTraitEffect
+    languagesSpoken:
+    - Caprine
+    languagesUnderstood:
+    - Caprine

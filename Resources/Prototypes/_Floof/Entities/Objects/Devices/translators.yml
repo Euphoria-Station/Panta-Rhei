@@ -322,3 +322,20 @@
     requires:
     - TauCetiBasic
     - SiikMaas
+
+- type: entity
+  id: CaprineTranslator
+  parent: [ TranslatorPoweredBase ]
+  name: Caprine translator
+  description: Translates speech between Caprine and Tau-Ceti Basic. For talking to Ovinia!
+  components:
+  - type: HandheldTranslator
+    spoken:
+    - TauCetiBasic
+    - Caprine
+    understood:
+    - TauCetiBasic
+    - Caprine
+    requires:
+    - TauCetiBasic
+    - Caprine

@@ -246,3 +246,13 @@
   effects:
   - !type:ReplaceNaturalLanguageTraitEffect
     language: SiikMaas
+
+- type: trait
+  id: NaturalCaprine
+  name: trait-NaturalCaprine-name
+  description: trait-NaturalCaprine-desc
+  category: NaturalLanguages
+  cost: 0
+  effects:
+  - !type:ReplaceNaturalLanguageTraitEffect
+    language: Caprine

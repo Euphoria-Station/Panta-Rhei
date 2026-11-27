@@ -1,0 +1,54 @@
+# Ovinia Language
+- type: language
+  id: Caprine
+  parent: BaseLanguage
+  chatPrefix: cap
+  icon: { state: caprine }
+  speech:
+    color: "#9ddfb8"
+    fontId: Mali
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    # repeated 3x for weight
+    - ba
+    - ma
+    - wa
+    - ga
+
+    - ba
+    - ma
+    - wa
+    - ga
+
+    - ba
+    - ma
+    - wa
+    - ga
+
+    # 1x
+    - baa
+    - maa
+    - waa
+    - gwa
+    - gah
+    - bah
+    - mah
+    - wah
+    - mau
+    - vah
+    - meh
+    - bahh
+    - maah
+    - mrah
+    - baah
+    - meeh
+    - mehh
+    - bweh
+    - baar
+    - bahr
+    - mehl
+    - wehh
+    - bleh

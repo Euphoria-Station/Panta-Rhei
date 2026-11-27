@@ -23,7 +23,7 @@
   - ValyrianStandardTranslator
   - AnimalTranslator
   - SiikMaasTranslator
-
+  - CaprineTranslator
 
 - type: technology
   id: AdvancedTranslation
@@ -51,4 +51,5 @@
   - AzazibaTranslatorImplanter
   - ValyrianStandardTranslatorImplanter
   - SiikMaasTranslatorImplanter
+  - CaprineTranslatorImplanter
 #  softCapContribution: 1.3 # Floofstation - reduced due to low utility # TODO

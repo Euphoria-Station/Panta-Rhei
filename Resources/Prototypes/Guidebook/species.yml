@@ -24,14 +24,16 @@
     # ImpStation additions
     - Allulalo
     - Thaven
+    - Ovinia # macro
     # Den addition
     # Floof section
-    # - Ovinia # Floof - no ovinia
     - Tajaran
     # - IPC
     # Floof section end
     # Starlight addition
     - Shadekin
+
+
 
 - type: guideEntry
   id: Arachnid
@@ -84,3 +86,8 @@
   name: species-name-tajaran
   text: "/ServerInfo/_Floof/Guidebook/Mobs/Tajaran.xml"
 # End Euphoria additions
+
+- type: guideEntry
+  id: Ovinia
+  name: species-name-ovinia
+  text: "/ServerInfo/_Impstation/Guidebook/Mobs/Ovinia.xml"

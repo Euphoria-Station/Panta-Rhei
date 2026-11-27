@@ -202,6 +202,7 @@
   - type: NpcFactionMember
     factions:
     - SimpleHostile
+    - AnimalFriend # MACRO
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:
@@ -977,6 +978,7 @@
     - Cow
     understands:
     - Cow
+    - Caprine
   - type: LeashAnchor # Floofstation
     kind: Intrinsic
 
@@ -1136,6 +1138,7 @@
   - type: Speech
     speechSounds: Goat
     speechVerb: Goat
+    allowedEmotes: ['Baa']
   - type: Vocal
     sounds:
       Female: Goat
@@ -1163,6 +1166,7 @@
     - Sheep
     understands:
     - Sheep
+    - Caprine
   - type: LeashAnchor # Floofstation
     kind: Intrinsic
 
@@ -1414,6 +1418,7 @@
   - type: NpcFactionMember
     factions:
     - SimpleHostile
+    - AnimalFriend # MACRO
 
 - type: entity
   name: genetic ancestor
@@ -1729,6 +1734,9 @@
   - type: BodyEmotes
     soundsId: MonkeySounds
 #End DeltaV additions
+  - type: NpcFactionMember
+    factions:
+    - AnimalFriend # MACRO
 
 
 - type: entity
@@ -4331,6 +4339,9 @@
       task: SimpleHostileCompound
   - type: Puller
     needsHands: false
+  - type: LanguageKnowledge # Floofstation
+    understands:
+    - Caprine
 
 - type: entity
   name: reindeer doe
