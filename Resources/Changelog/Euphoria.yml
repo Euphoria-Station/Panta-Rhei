@@ -7443,3 +7443,9 @@ Entries:
       message: Added most slime markings back to the common marking pool.
   id: 918
   time: '2026-11-27T23:11:34.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: Rainbow iscream will now have a taste.
+  id: 919
+  time: '2026-11-27T23:16:27.0000000+00:00'
