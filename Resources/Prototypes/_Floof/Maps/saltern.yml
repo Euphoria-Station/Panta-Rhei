@@ -31,7 +31,7 @@
           emergencyShuttlePath: /Maps/Floof/Shuttles/Evac/emergency_meta.yml
         - type: StationJobs
           availableJobs:
-#            Anomaly: [ 4, 4 ] # FloofStation
+            Anomaly: [ 1, 1 ] # FloofStation Euphoria
             #service
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]

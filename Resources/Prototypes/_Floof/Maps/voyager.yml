@@ -32,6 +32,7 @@
           prefixCreator: 'HGI'
       - type: StationJobs
         availableJobs:
+            Anomaly: [ 1, 1 ] # Euphoria
             # command
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
@@ -77,14 +78,14 @@
             Prisoner: [ 3, 5 ]
             PrisonGuard: [ 2, 2 ]
             SeniorOfficer: [ 1, 1 ]
-            # justice 
-            ChiefJustice: [ 1, 1 ] 
+            # justice
+            ChiefJustice: [ 1, 1 ]
             Clerk: [ 1, 1 ]
             Lawyer: [ 1, 1 ]
             Prosecutor: [ 1, 1 ]
             # supply
             Quartermaster: [ 1, 1 ]
-            InventorySpecialist: [ 1, 1 ] 
+            InventorySpecialist: [ 1, 1 ]
             SalvageSpecialist: [ 2, 4 ]
             CargoTechnician: [ 2, 4 ]
             Courier: [ 1, 2 ]

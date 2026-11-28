@@ -31,6 +31,7 @@
           path: /Maps/Floof/Shuttles/Cargo/cargo_fland.yml
         - type: StationJobs
           availableJobs:
+            Anomaly: [ 1, 1 ] # Euphoria
             #service
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]

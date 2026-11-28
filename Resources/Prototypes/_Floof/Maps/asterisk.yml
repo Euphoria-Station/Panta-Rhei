@@ -30,7 +30,7 @@
             prefixCreator: 'DV'
         - type: StationJobs
           availableJobs:
-#            Anomaly: [ 4, 4 ] # Floofstation
+            Anomaly: [ 1, 1 ] # Floofstation Euphoria
           #service
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]

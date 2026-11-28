@@ -30,7 +30,7 @@
           emergencyShuttlePath: /Maps/Floof/Shuttles/Evac/NTES_UCLB.yml
         - type: StationJobs
           availableJobs:
-            #Anomaly: [ 4, 4 ] # Floofstation
+            Anomaly: [ 1, 1 ] # Floofstation Euphoria
             # Service
             Bartender: [ 2, 2 ]
             Botanist: [ 2, 3]

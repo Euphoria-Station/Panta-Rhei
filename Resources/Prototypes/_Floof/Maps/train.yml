@@ -30,6 +30,7 @@
           emergencyShuttlePath: /Maps/Floof/Shuttles/Evac/evac_train.yml #floofstation
         - type: StationJobs
           availableJobs:
+            Anomaly: [ 1, 1 ] # Euphoria
             #service
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
