@@ -212,6 +212,8 @@
     FoodBreadBun: 1
   reagents:
     Honey: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeHoneyChallah
@@ -223,6 +225,8 @@
     PoppySeeds: 1
   reagents:
     Honey: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeGlazedHam
@@ -234,6 +238,8 @@
   reagents:
     Honey: 10
     TableSalt: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeAppleHoneyDutchBaby
@@ -247,6 +253,8 @@
   reagents:
     Honey: 10
     Oats: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePoachedPears
@@ -285,6 +293,8 @@
     Flour: 5
     Oats: 5
     Sugar: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePearCheeseTart
@@ -296,3 +306,5 @@
     FoodDoughPie: 1
     FoodPear: 2
     FoodChevre: 1
+  recipeType: #Euphoria
+  - Oven

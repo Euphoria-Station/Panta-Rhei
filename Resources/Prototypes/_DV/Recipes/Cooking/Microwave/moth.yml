@@ -173,7 +173,7 @@
   reagents:
     Sugar: 5
     Flour: 5
-    #Honey: 5
+    Honey: 5 #Euphoria - we have honey
   solids:
     FoodCurdCheese: 1
 
@@ -190,6 +190,8 @@
     #Vanilla: 5
   solids:
     FoodSoybeans: 1
+  recipeType: #Euphoria
+  - Oven
 
 #Eventually use the pastry dough
 - type: microwaveMealRecipe
@@ -204,3 +206,5 @@
     Egg: 6
   solids:
     MaterialCloth1: 1
+  recipeType: #Euphoria
+  - Oven
