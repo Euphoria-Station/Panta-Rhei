@@ -24,7 +24,7 @@
     job: Anomaly
   effects:
   - !type:AddActionTraitEffect
-    action: ActionSmoke
+    action: ActionAnomSmoke
 
 - type: trait
   id: TraitAnomalyInvisible
