@@ -42,6 +42,8 @@
     FoodChevreSlice: 1
   reagents:
     Mayo: 5
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeSausageRaw
@@ -140,6 +142,8 @@
   reagents:
     Rice: 15
     Water: 10
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeCarpSushi
@@ -153,6 +157,8 @@
   reagents:
     Rice: 15
     Water: 10
+  recipeType: #Euphoria
+  - Assembler
 
 # Salad
 
@@ -168,6 +174,8 @@
     FoodCucumber: 1
     FoodTomato: 1
     FoodChevreSlice: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeAvocadoSalad
@@ -182,6 +190,8 @@
     FoodCucumber: 1
     FoodAvocado: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Assembler
 
 #Other
 
@@ -192,6 +202,8 @@
   time: 30
   solids:
     FoodGrape: 5
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePickle

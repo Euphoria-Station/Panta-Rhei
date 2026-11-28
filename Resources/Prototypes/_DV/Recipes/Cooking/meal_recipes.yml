@@ -99,6 +99,8 @@
     FoodMothSaladBase: 1
     FoodChiliPepper: 1
     FoodCabbage: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMothCornmealPorridge
