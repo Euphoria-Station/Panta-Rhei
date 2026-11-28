@@ -21,6 +21,8 @@
     FoodMeatShrimp: 3
     FoodCheeseSlice: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeShrimpBurger

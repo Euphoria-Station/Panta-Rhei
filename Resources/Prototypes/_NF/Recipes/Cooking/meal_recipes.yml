@@ -42,6 +42,8 @@
     FoodChevreSlice: 1
   reagents:
     Mayo: 5
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeSausageRaw
@@ -140,6 +142,8 @@
   reagents:
     Rice: 15
     Water: 10
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeCarpSushi
@@ -153,6 +157,8 @@
   reagents:
     Rice: 15
     Water: 10
+  recipeType: #Euphoria
+  - Assembler
 
 # Salad
 
@@ -168,6 +174,8 @@
     FoodCucumber: 1
     FoodTomato: 1
     FoodChevreSlice: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeAvocadoSalad
@@ -182,6 +190,8 @@
     FoodCucumber: 1
     FoodAvocado: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Assembler
 
 #Other
 
@@ -192,6 +202,8 @@
   time: 30
   solids:
     FoodGrape: 5
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePickle
@@ -212,6 +224,8 @@
     FoodBreadBun: 1
   reagents:
     Honey: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeHoneyChallah
@@ -223,6 +237,8 @@
     PoppySeeds: 1
   reagents:
     Honey: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeGlazedHam
@@ -234,6 +250,8 @@
   reagents:
     Honey: 10
     TableSalt: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeAppleHoneyDutchBaby
@@ -247,6 +265,8 @@
   reagents:
     Honey: 10
     Oats: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePoachedPears
@@ -285,6 +305,8 @@
     Flour: 5
     Oats: 5
     Sugar: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePearCheeseTart
@@ -296,3 +318,5 @@
     FoodDoughPie: 1
     FoodPear: 2
     FoodChevre: 1
+  recipeType: #Euphoria
+  - Oven

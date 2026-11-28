@@ -11,6 +11,8 @@
     StrawberryJuice: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamCaramel
@@ -24,6 +26,8 @@
   solids:
     IceCreamBowl: 1
     FoodCoffeeBeansRoastedLight: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamCoffee
@@ -35,6 +39,8 @@
     Coffee: 20
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamGreenTea
@@ -46,6 +52,8 @@
     GreenTea: 15
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamLemon
@@ -56,6 +64,8 @@
     JuiceLemon: 15
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamOrange
@@ -67,6 +77,8 @@
     JuiceOrange: 15
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamRainbow
@@ -80,6 +92,8 @@
     JuiceOrange: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamSaltedCaramel
@@ -92,6 +106,8 @@
     TableSalt: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamSpaghetti
@@ -104,6 +120,8 @@
     JuiceBerry: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamStrawberry
@@ -116,6 +134,8 @@
   solids:
     IceCreamBowl: 1
     FoodStrawberry: 1 # changed to strawberry
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamBananaSplit
@@ -130,6 +150,8 @@
     IceCreamBowl: 1
     FoodBanana: 1
     FoodCherry: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamChoco
@@ -142,6 +164,8 @@
   solids:
     IceCreamBowl: 1
     FoodSnackChocolateBar: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamCoconut
@@ -153,6 +177,8 @@
     CoconutWater: 20
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamCosmos
@@ -166,6 +192,8 @@
     BlackberryJuice: 15 # Euphoria - i think this is a better fit
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamGilded
@@ -177,6 +205,8 @@
     Gold: 20
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamLoversDelight
@@ -188,6 +218,8 @@
     JuicePomegranate: 20
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamMintChoco
@@ -200,6 +232,8 @@
     CocoaPowder: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamSolar
@@ -212,6 +246,8 @@
     Hydrogen: 10
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamNebula
@@ -224,6 +260,8 @@
     Hydrogen: 10
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamNeapolitan
@@ -236,6 +274,8 @@
     CocoaPowder: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamWatermelon
@@ -248,6 +288,8 @@
     StrawberryJuice: 20 # Euphoria
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeIceCreamVanilla
@@ -259,6 +301,8 @@
     Cream: 5
   solids:
     IceCreamBowl: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeRicePudding2
@@ -284,6 +328,8 @@
     Raisins: 5
   solids:
     FoodDoughSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMeatBun
@@ -296,6 +342,8 @@
   solids:
     FoodDoughSlice: 1
     FoodMeatCutlet: 1
+  recipeType: #Euphoria
+  - Oven
 
 # fish recipe additions
 - type: microwaveMealRecipe
@@ -310,6 +358,8 @@
   reagents:
     Rice: 15
     Water: 10
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeFishBurger
@@ -428,6 +478,8 @@
   reagents:
     OilOlive: 5
     TableSalt: 5
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePeanutButterBrownies
@@ -443,6 +495,8 @@
   solids:
     FoodButter: 2
     FoodSnackChocolateBar: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePeanutButterCup
@@ -456,6 +510,8 @@
     PeanutButter: 5
   solids:
     FoodSnackChocolateBar: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePeanutButterTart
@@ -469,6 +525,8 @@
     FoodDoughPie: 1
     FoodPlateTin: 1
     FoodFrosting: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePeanutButterJelly
@@ -481,6 +539,8 @@
   solids:
     FoodBreadPlainSlice: 2
     FoodStrawberry: 2 # good enough with strawberry imo
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePeanutButterBanana
@@ -493,6 +553,8 @@
   solids:
     FoodBreadPlainSlice: 2
     FoodBanana: 2
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeToastedPeanutButterBread
@@ -515,6 +577,8 @@
     FoodDoughPie: 1
     FoodStrawberry: 5
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMuffinStrawberry
@@ -528,6 +592,8 @@
     FoodStrawberry: 1
   reagents:
     Sugar: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeChocolateCoveredStrawberry
@@ -538,6 +604,8 @@
   solids:
     FoodSnackChocolateBar: 1
     FoodStrawberry: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCandyStrawberry
@@ -549,3 +617,5 @@
     FoodStrawberry: 1
   reagents:
     Sugar: 5
+  recipeType: #Euphoria
+  - Oven

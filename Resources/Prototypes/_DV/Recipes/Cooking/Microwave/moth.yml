@@ -107,6 +107,8 @@
     FoodOnionRedSlice: 1
     FoodTomato: 1
     FoodBowlBig: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeMothCapreseSalad
@@ -120,6 +122,8 @@
     FoodTomato: 1
     FoodMozzarella: 1
     FoodAmbrosiaVulgaris: 1 #Herbs
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeMothFleetSalad
@@ -134,6 +138,8 @@
     FoodCarrot: 1
     FoodBreadPlainSlice: 1
     FoodCheeseSlice: 1 #Grilled cheese slice
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeMothCottonSalad
@@ -147,6 +153,8 @@
     FoodMothSaladBase: 1
     MaterialCotton1: 1
     FoodCarrot: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeMothKachumbariSalad
@@ -161,6 +169,8 @@
     FoodChiliPepper: 1
     FoodOnionRed: 1
     FoodAmbrosiaVulgaris: 1 #Herbs
+  recipeType: #Euphoria
+  - Assembler
 
 # Confectionary
 
@@ -173,9 +183,11 @@
   reagents:
     Sugar: 5
     Flour: 5
-    #Honey: 5
+    Honey: 5 #Euphoria - we have honey
   solids:
     FoodCurdCheese: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeMothMothmallow
@@ -190,6 +202,8 @@
     #Vanilla: 5
   solids:
     FoodSoybeans: 1
+  recipeType: #Euphoria
+  - Oven
 
 #Eventually use the pastry dough
 - type: microwaveMealRecipe
@@ -204,3 +218,5 @@
     Egg: 6
   solids:
     MaterialCloth1: 1
+  recipeType: #Euphoria
+  - Oven

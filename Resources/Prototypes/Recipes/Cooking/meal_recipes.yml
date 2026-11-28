@@ -6,6 +6,8 @@
   group: Breads
   solids:
     FoodUncookedBun: 1 # one third of a standard bread dough recipe; Euphoria - use UncookedBun instead of DoughSlice
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCottonBun
@@ -15,6 +17,8 @@
   group: Moth
   solids:
     FoodDoughCottonSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 #Bagels
 - type: microwaveMealRecipe
@@ -25,6 +29,8 @@
   group: Breads
   solids:
     FoodDoughRope: 1 # created by rolling a dough slice.
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBagelPoppy
@@ -35,6 +41,8 @@
   solids:
     FoodDoughRope: 1
     PoppySeeds: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBagelCotton
@@ -44,6 +52,8 @@
   group: Moth
   solids:
     FoodDoughCottonRope: 1
+  recipeType: #Euphoria
+  - Oven
 
 #Burgers
 
@@ -405,6 +415,8 @@
   solids:
     FoodDough: 1
     FoodBanana: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCornbread
@@ -414,6 +426,8 @@
   group: Breads
   solids:
     FoodDoughCornmeal: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCreamCheeseBread
@@ -426,6 +440,8 @@
   solids:
     FoodDough: 1
     FoodCheeseSlice: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMeatBread
@@ -437,6 +453,8 @@
     FoodDough: 1
     FoodMeatCutlet: 2
     FoodCheeseSlice: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMimanaBread
@@ -449,6 +467,8 @@
   solids:
     FoodDough: 1
     FoodMimana: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBread
@@ -458,6 +478,8 @@
   group: Breads
   solids:
     FoodDough: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBreadCotton
@@ -467,6 +489,8 @@
   group: Moth
   solids:
     FoodDoughCotton: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeSausageBread
@@ -477,6 +501,8 @@
   solids:
     FoodDough: 1
     FoodMeat: 1 #replace with sausage
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeSpiderMeatBread
@@ -488,6 +514,8 @@
     FoodDough: 1
     FoodMeatSpiderCutlet: 2
     FoodCheeseSlice: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeTofuBread
@@ -498,6 +526,8 @@
   solids:
     FoodDough: 1
     FoodTofu: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeXenoMeatBread
@@ -509,6 +539,8 @@
     FoodDough: 1
     FoodMeatXenoCutlet: 2
     FoodCheeseSlice: 2
+  recipeType: #Euphoria
+  - Oven
 
 #Slices Only
 
@@ -523,6 +555,8 @@
     Blackpepper: 5
   solids:
     FoodDough: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBaguetteCotton
@@ -535,6 +569,8 @@
     Blackpepper: 5
   solids:
     FoodDoughCotton: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBaguetteSword
@@ -582,6 +618,8 @@
     FoodBreadPlainSlice: 1
     FoodGarlic: 1
     FoodButterSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeJellyToast
@@ -634,6 +672,8 @@
     FoodDoughFlat: 1
     FoodCheeseSlice: 1
     FoodTomato: 4
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMushroomPizza
@@ -644,6 +684,8 @@
   solids:
     FoodDoughFlat: 1
     FoodMushroom: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMeatPizza
@@ -656,6 +698,8 @@
     FoodMeatCutlet: 3 # DeltaV - change from meat to meat cutlets. Was FoodMeat
     FoodCheeseSlice: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeVegetablePizza
@@ -669,6 +713,8 @@
     FoodCarrot: 1
     FoodCorn: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeHawaiianPizza
@@ -680,6 +726,8 @@
     FoodDoughFlat: 1
     FoodMeatChickenCutlet: 3
     FoodPineappleSlice: 5
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeDankPizza
@@ -692,6 +740,8 @@
     LeavesCannabis: 2
     FoodCheeseSlice: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeDonkpocketPizza
@@ -704,6 +754,8 @@
     FoodDonkpocketWarm: 3
     FoodCheeseSlice: 1
     FoodTomato: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeUraniumPizza
@@ -716,6 +768,8 @@
     FoodChiliPepper: 2
     FoodTomato: 2
     SheetUranium1: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCottonPizza
@@ -726,6 +780,8 @@
   solids:
     FoodDoughCottonFlat: 1
     CottonBol: 4
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeWorldpeasPizza
@@ -735,6 +791,8 @@
   solids:
     FoodDoughFlat: 1
     FoodWorldPeas: 3
+  recipeType: #Euphoria
+  - Oven
 
 #Italian
 - type: microwaveMealRecipe
@@ -1127,6 +1185,8 @@
     FoodDoughPie: 1
     FoodFlyAmanita: 1
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeApplePie
@@ -1138,6 +1198,8 @@
     FoodDoughPie: 1
     FoodApple: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBaklava
@@ -1149,6 +1211,8 @@
     FoodDoughPie: 1
     FoodSnackPistachios: 1 #i'd rather use a botany crop but we don't have nuts yet
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBananaCreamPie
@@ -1160,6 +1224,8 @@
     FoodDoughPie: 1
     FoodBanana: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBerryClafoutis
@@ -1174,6 +1240,8 @@
     FoodBlackberry: 1 # Euphroia
     FoodRaspberry: 1 # Euphroia
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCherryPie
@@ -1185,6 +1253,8 @@
     FoodDoughPie: 1
     FoodCherry: 5
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeFrostyPie
@@ -1196,6 +1266,8 @@
     FoodDoughPie: 1
     FoodChillyPepper: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMeatPie
@@ -1207,6 +1279,8 @@
     FoodDoughPie: 1
     FoodMeat: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePumpkinPie
@@ -1218,6 +1292,8 @@
     FoodDoughPie: 1
     FoodPumpkin: 1
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 #- type: microwaveMealRecipe
 #  id: RecipePlumpPie
@@ -1239,6 +1315,8 @@
     FoodDoughPie: 1
     FoodMeatXeno: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 #Tarts
 
@@ -1255,6 +1333,8 @@
     FoodDoughPie: 1
     FoodSnackChocolateBar: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeGappleTart
@@ -1270,6 +1350,8 @@
     FoodDoughPie: 1
     FoodApple: 2 #in absence of the real gapple i'm substituting one apple with 10u gold (one ingot)
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeGrapeTart
@@ -1284,6 +1366,8 @@
     FoodDoughPie: 1
     FoodGrape: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMimeTart
@@ -1298,6 +1382,8 @@
     FoodDoughPie: 1
     FoodMimana: 3
     FoodPlateTin: 1
+  recipeType: #Euphoria
+  - Oven
 
 #Other
 
@@ -1489,6 +1575,8 @@
   solids:
     FoodButterSlice: 1
     FoodSnackChocolateBar: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeSugarCookie
@@ -1501,6 +1589,8 @@
     Sugar: 10
   solids:
     FoodButterSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeRaisinCookie
@@ -1513,6 +1603,8 @@
     Sugar: 5
   solids:
     FoodSnackRaisins: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCookieOatmeal
@@ -1525,6 +1617,8 @@
     Sugar: 5
   solids:
     FoodButterSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeChocolateChipPancake
@@ -1548,6 +1642,8 @@
   solids:
     FoodCakePlain: 1
     FoodApple: 3
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCarrotCake
@@ -1558,6 +1654,8 @@
   solids:
     FoodCakePlain: 1
     FoodCarrot: 3
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeLemonCake
@@ -1568,6 +1666,8 @@
   solids:
     FoodCakePlain: 1
     FoodLemon: 3
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeLemoonCake
@@ -1580,6 +1680,8 @@
     FoodLemoon: 2
     #FoodBerries: 1 #dark colouring # Euphroia - swapping berries
     FoodBlackberry: 1 # Euproia - it uses dark coloring so blackberry it is
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeOrangeCake
@@ -1590,6 +1692,8 @@
   solids:
     FoodCakePlain: 1
     FoodOrange: 3
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBlueberryCake
@@ -1601,6 +1705,8 @@
     FoodCakePlain: 1
     #FoodBerries: 3 # Euphroia
     FoodBlueberry: 3 # Euphroia switching to blueberry
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeLimeCake
@@ -1611,6 +1717,8 @@
   solids:
     FoodCakePlain: 1
     FoodLime: 3
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCheeseCake
@@ -1623,6 +1731,8 @@
   solids:
     FoodCakePlain: 1
     FoodCheeseSlice: 3
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePumpkinCake
@@ -1633,6 +1743,8 @@
   solids:
     FoodCakePlain: 1
     FoodPumpkin: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeClownCake
@@ -1643,6 +1755,8 @@
   solids:
     ClothingMaskClown: 1
     FoodCakePlain: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCake
@@ -1652,6 +1766,8 @@
   group: Cake
   solids:
     FoodCakeBatter: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBirthdayCake
@@ -1663,6 +1779,8 @@
     Cream: 5
   solids:
     FoodCakePlain: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeChocolateCake
@@ -1673,6 +1791,8 @@
   solids:
     FoodCakePlain: 1
     FoodSnackChocolateBar: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBrainCake
@@ -1683,6 +1803,8 @@
   solids:
     FoodCakePlain: 1
     OrganHumanBrain: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeSlimeCake
@@ -1694,6 +1816,8 @@
     Slime: 15
   solids:
     FoodCakePlain: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCatCake
@@ -1708,6 +1832,8 @@
     FoodCakePlain: 1
     FoodSnackRaisins: 1
     OrganAnimalHeart: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBerryDelight
@@ -1720,6 +1846,8 @@
     FoodStrawberry: 3 # Euphoria - made the recipe use strawberries to match the sprite
   reagents:
     Milk: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBreadDog
@@ -1733,6 +1861,8 @@
     FoodBreadSausage: 1
     OrganAnimalHeart: 1
     FoodSpaceshroomCooked: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeDumplings
@@ -1759,6 +1889,8 @@
   solids:
     FoodButter: 2
     FoodSnackChocolateBar: 2
+  recipeType: #Euphoria
+  - Oven
 
 #Donks i guess
 - type: microwaveMealRecipe
@@ -1935,6 +2067,8 @@
     FoodChiliPepper: 2
     FoodMeatCutlet: 1
     FoodCorn: 1
+  recipeType: #Euphoria
+  - Oven
 
 # SALADS: These should be moved out of the microwave as soon as possible
 - type: microwaveMealRecipe
@@ -1947,6 +2081,8 @@
     FoodBowlBig: 1
     FoodAmbrosiaVulgaris: 3
     FoodApple: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeValidSalad
@@ -1959,6 +2095,8 @@
     FoodAmbrosiaVulgaris: 3
     FoodPotato: 1
     FoodMeatMeatball: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeColeslaw
@@ -1972,6 +2110,8 @@
     FoodBowlBig: 1
     FoodOnionRed: 1
     FoodCabbage: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeCaesarSalad
@@ -1987,6 +2127,8 @@
     FoodBreadPlainSlice: 1
     FoodCheeseSlice: 1
     FoodCabbage: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeCitrusSalad
@@ -1999,6 +2141,8 @@
     FoodOrange: 1
     FoodLemon: 1
     FoodLime: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeKimchiSalad
@@ -2013,6 +2157,8 @@
     FoodCarrot: 1
     FoodCabbage: 1
     FoodGarlic: 1
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeFruitSalad
@@ -2026,6 +2172,8 @@
     FoodApple: 1
     FoodGrape: 1
     FoodWatermelonSlice: 2
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeJungleSalad
@@ -2039,6 +2187,8 @@
     FoodApple: 1
     FoodGrape: 1
     FoodWatermelonSlice: 2
+  recipeType: #Euphoria
+  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeWatermelonFruitBowlSalad
@@ -2053,6 +2203,8 @@
     FoodLemon: 1
     FoodOrange: 1
     FoodAmbrosiaVulgaris: 1
+  recipeType: #Euphoria
+  - Assembler
 
 # Muffins
 
@@ -2067,6 +2219,8 @@
     FoodDoughSlice: 1
   reagents:
     Sugar: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMuffinChocolate
@@ -2080,6 +2234,8 @@
     FoodSnackChocolateBar: 1
   reagents:
     Sugar: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMuffinBerry
@@ -2094,6 +2250,8 @@
     FoodBlueberry: 1 # Euphoria
   reagents:
     Sugar: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMuffinBanana
@@ -2107,6 +2265,8 @@
     FoodBanana: 1
   reagents:
     Sugar: 10
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeMuffinCherry
@@ -2120,6 +2280,8 @@
     FoodCherry: 3
   reagents:
     Sugar: 10
+  recipeType: #Euphoria
+  - Oven
 
 # NOT ACTUAL FOOD
 
@@ -2130,6 +2292,8 @@
   time: 10
   solids:
     LeavesTea: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeDriedTobacco
@@ -2139,6 +2303,8 @@
   group: Medicinal
   solids:
     LeavesTobacco: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeDriedCannabis
@@ -2148,6 +2314,8 @@
   group: Medicinal
   solids:
     LeavesCannabis: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeDriedCannabisRainbow
@@ -2157,6 +2325,8 @@
   group: Medicinal
   solids:
     LeavesCannabisRainbow: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeTrashBakedBananaPeel
@@ -2165,6 +2335,8 @@
   time: 5
   solids:
     TrashBananaPeel: 1
+  recipeType: #Euphoria
+  - Oven
 
 # Suppermatter
 - type: microwaveMealRecipe
@@ -2221,6 +2393,8 @@
   solids:
     FoodCannabisButter: 2
     FoodSnackChocolateBar: 2
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCornInButter
@@ -2348,6 +2522,8 @@
   solids:
     FoodCroissantRaw: 1
     FoodButterSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCroissantCotton
@@ -2358,6 +2534,8 @@
   solids:
     FoodCroissantRawCotton: 1
     FoodButterSlice: 1
+  recipeType: #Euphoria
+  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeThrowingCroissant
@@ -2470,3 +2648,5 @@
     Fiber: 10
   solids:
     FoodCakePlain: 1
+  recipeType: #Euphoria
+  - Oven
