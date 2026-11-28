@@ -185,7 +185,7 @@
 - type: entity
   parent: EngineeringIDCard
   id: NuclearScientistIDCard
-  name: nuclear scientist ID card
+  name: Reactor Operator ID card # euphoria - changing the name and title of the job to make sense
   components:
   - type: IdCard
     jobIcon: JobIconNuclearScientist

@@ -725,7 +725,7 @@
 - type: entity
   parent: EngineerPDA
   id: NuclearScientistPDA
-  name: nuclear scientist PDA
+  name: Reactor Operator PDA  # euphoria - changing the name and title of the job to make sense
   description: The built-in Geiger counter is still broken from the last meltdown.
   components:
   - type: Pda
