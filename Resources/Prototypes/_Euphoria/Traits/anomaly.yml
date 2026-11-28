@@ -37,4 +37,4 @@
     job: Anomaly
   effects:
   - !type:AddActionTraitEffect
-    action: ActionPsionicInvisibility
+    action: ActionTogglePhaseCloak
