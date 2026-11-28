@@ -1,0 +1,5 @@
+﻿- type: roleLoadout
+  id: JobAnomaly
+  parent: JobPassenger
+  groups:
+  - ChaplainJumpsuit

@@ -1,0 +1,12 @@
+﻿- type: entity
+  parent: ActionSmoke
+  id: ActionAnomSmoke
+  name: Smoke
+  components:
+  - type: Action
+    useDelay: 20
+    itemIconStyle: BigAction
+    icon:
+      sprite: Actions/smokeaction.rsi
+      state: smokeaction
+

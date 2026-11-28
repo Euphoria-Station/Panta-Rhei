@@ -1,0 +1,40 @@
+﻿- type: trait
+  id: TraitAnomalyJaunt
+  name: trait-anomalyJaunt-name
+  description: trait-anomalyJaunt-desc
+  category: Anomaly
+  cost: 5
+  conditions:
+  - !type:HasJobCondition
+    job: Anomaly
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Jaunt
+      jauntAction: ActionPolymorphJaunt
+
+- type: trait
+  id: TraitAnomalySmoke
+  name: trait-anomalySmoke-name
+  description: trait-anomalySmoke-desc
+  category: Anomaly
+  cost: 5
+  conditions:
+  - !type:HasJobCondition
+    job: Anomaly
+  effects:
+  - !type:AddActionTraitEffect
+    action: ActionAnomSmoke
+
+- type: trait
+  id: TraitAnomalyInvisible
+  name: trait-anomalyInvisible-name
+  description: trait-anomalyInvisible-desc
+  category: Anomaly
+  cost: 5
+  conditions:
+  - !type:HasJobCondition
+    job: Anomaly
+  effects:
+  - !type:AddActionTraitEffect
+    action: ActionTogglePhaseCloak

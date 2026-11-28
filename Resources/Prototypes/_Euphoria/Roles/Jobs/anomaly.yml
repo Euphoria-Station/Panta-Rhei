@@ -1,0 +1,11 @@
+﻿- type: job
+  id: Anomaly
+  name: job-name-anomaly
+  description: job-description-anomaly
+  playTimeTracker: JobAnomaly
+  icon: "JobIconUnknown"
+  requireAdminNotify: true
+  access:
+  - Maintenance
+  canBeAntag: false
+  whitelisted: true

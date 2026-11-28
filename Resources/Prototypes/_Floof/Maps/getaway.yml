@@ -33,7 +33,7 @@
       - type: StationJobs
         availableJobs:
           Passenger: [ -1, -1 ]
-#          Anomaly: [ 4, 4 ] # Floofstation
+          Anomaly: [ 1, 1 ] # Floofstation Euphoria
           Captain: [ 1, 1 ]
           # Service
           HeadOfPersonnel: [ 1, 1 ]

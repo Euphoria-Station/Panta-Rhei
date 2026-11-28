@@ -31,7 +31,7 @@
           availableJobs:
           #civilian
             Passenger: [ -1, -1 ]
-#            Anomaly: [ 4, 4 ] # FloofStation
+            Anomaly: [ 1, 1 ] # FloofStation Euphoria
             Librarian: [ 1, 1 ]
           #command
             Captain: [ 1, 1 ]

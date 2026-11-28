@@ -30,7 +30,7 @@
         emergencyShuttlePath: /Maps/Floof/Shuttles/Evac/NTES_Delta.yml
       - type: StationJobs
         availableJobs:
-#          Anomaly: [ 4, 4 ] # FloofStation
+          Anomaly: [ 1, 1 ] # FloofStation Euphoria
           #Service
           Passenger: [ -1, -1 ]
           ServiceWorker: [ 3, 3]
